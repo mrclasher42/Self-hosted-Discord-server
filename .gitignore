@@ -7,19 +7,16 @@ data/discord.db-shm
 data/discord.db-wal
 data/discord.db-journal
 data/*.bak-reset-*
-
-# Uploads
 data/uploads/
 data/blobs/
 !data/uploads/.gitkeep
 !data/blobs/.gitkeep
 
-# Client APK (large file)
-client/*.apk
-client/*.idsig
+# Client (not in repo)
+client/
+!client/README.md
 
-# Keystore (sensitive)
-client/cord.keystore
+# Keystore
 *.keystore
 *.jks
 
@@ -49,4 +46,3 @@ Thumbs.db
 
 # Temp
 *.tmp
-*.bak

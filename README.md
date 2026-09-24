@@ -181,29 +181,6 @@
 - Invite metadata
 - HTML invite page
 
-### Files & CDN
-
-- Attachment uploads (up to 50 MB)
-- Avatar uploads
-- Banner uploads
-- Emoji uploads
-- Sticker uploads
-- Tenor GIF auto-embedding
-- Giphy GIF auto-embedding
-- CDN routes
-  - `/cdn/avatars/:userId/:hash`
-  - `/cdn/icons/:guildId/:hash`
-  - `/cdn/banners/:userId/:hash`
-  - `/cdn/channel-icons/:channelId/:hash`
-  - `/cdn/splashes/:guildId/:hash`
-  - `/cdn/emojis/:emojiId`
-  - `/cdn/stickers/:stickerId`
-  - `/cdn/attachments/:channelId/:messageId/:filename`
-  - `/cdn/app-assets/:file`
-  - `/cdn/app-icons/:iconId`
-- Upload routes
-  - `/uploads/:fileId/:filename`
-
 ### WebSocket Gateway
 
 - Discord Gateway protocol v6
@@ -371,33 +348,6 @@ Point the Android Discord 9.9.5 client to the server URL.
 
 ---
 
-## Client
-
-The client APK is **not included** in this repository.
-
-### Build a Patched Client
-
-1. Download **Discord 9.9.5 APK** from [APKMirror](https://www.apkmirror.com/apk/discord-inc/discord-chat-for-gamers/)
-2. Place it at `client/Discord_9.9.5.apk`
-3. Run the build script:
-
-```bash
-cd client
-./build-complete.sh 192.168.1.100
-```
-
-4. Output: `client/Discord_patched.apk`
-
-### Requirements
-
-```bash
-pkg install apktool aapt aapt2 openjdk-17 zip unzip wget
-```
-
-See [client/README.md](client/README.md) for details.
-
----
-
 ## Configuration
 
 ### config.json
@@ -519,8 +469,6 @@ The server creates a backup at `data/discord.db.bak-reset-TIMESTAMP`.
 ```
 
 Blocked IPs receive `403 Forbidden`.
-
----
 
 ---
 
@@ -1243,12 +1191,6 @@ discord-server-2019/
 
 ## Commands
 
-### Install
-
-```bash
-npm install
-```
-
 ### Start
 
 ```bash
@@ -1311,22 +1253,6 @@ Delete and restart:
 ```bash
 rm data/discord.db*
 npm start
-```
-
-### Files not uploading
-
-Check:
-
-```bash
-ls -la data/uploads/
-```
-
-Increase max size in `config.json`:
-
-```json
-"limits": {
-  "maxUploadSize": 104857600
-}
 ```
 
 ### GIFs not loading
