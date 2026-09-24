@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/primary_100" android:id="@id/button_text" android:textAllCaps="true" style="@style/UiKit.TextView.Semibold" />
-    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="@color/primary_100" android:id="@id/button_boxed_text" android:background="@drawable/bg_boxed_button_outline" android:paddingLeft="@dimen/uikit_spacing_small" android:paddingTop="@dimen/uikit_spacing_xsmall" android:paddingRight="@dimen/uikit_spacing_small" android:paddingBottom="@dimen/uikit_spacing_xsmall" android:layout_marginLeft="@dimen/uikit_spacing_medium" android:layout_marginTop="@dimen/uikit_spacing_small" android:layout_marginBottom="@dimen/uikit_spacing_small" android:textAllCaps="true" style="@style/UiKit.TextView" />
-</merge>

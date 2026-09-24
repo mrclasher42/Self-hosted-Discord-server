@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/server_settings_overview_region_wrap" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/UiKit.ViewGroup.LinearLayout">
-        <TextView android:text="@string/form_label_server_region" style="@style/UiKit.Settings.Item.Label" />
-        <TextView android:id="@id/server_settings_overview_region" style="@style/UiKit.Settings.Item.Addition" />
-    </LinearLayout>
-    <ImageView android:layout_gravity="center" android:id="@id/server_settings_overview_region_flag" android:padding="@dimen/uikit_spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/form_label_server_region" />
-</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/boost_info_container" android:background="?primary_700" style="@style/UiKit.ViewGroup"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="?primary_000" android:id="@id/boost_info_text" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginTop="@dimen/uikit_spacing_medium" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_medium" style="@style/UiKit.TextView" />
-</FrameLayout>

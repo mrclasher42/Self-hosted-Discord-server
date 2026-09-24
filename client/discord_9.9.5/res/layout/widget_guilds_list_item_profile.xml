@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_marginTop="@dimen/guild_item_spacing" style="@style/UiKit.GuildsListItem"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/guilds_item_profile_avatar" android:background="@drawable/drawable_circle_grey_channels" android:src="@drawable/icon_friends_list" android:contentDescription="@string/home" style="@style/UiKit.GuildsListIcon" />
-    <View android:id="@id/guilds_item_profile_selected" style="@style/UiKit.GuildsListSelected" />
-</RelativeLayout>

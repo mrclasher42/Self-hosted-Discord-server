@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_marginTop="12.0dip" style="@style/UiKit.ViewGroup.RelativeLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/channels_list_item_friends_icon" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:src="@drawable/ic_human_greeting_24dp" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/sample_empty_string" android:importantForAccessibility="no" android:layout_alignParentStart="true" style="@style/Avatar.Standard" />
-    <TextView android:textSize="@dimen/uikit_textsize_large" android:textColor="@color/channel_list_item_text_color" android:text="@string/friends" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/uikit_spacing_large" android:layout_toEndOf="@id/channels_list_item_friends_icon" style="@style/UiKit.TextView.Semibold" />
-    <TextView android:id="@id/channels_list_item_friends_mentions" android:background="@drawable/drawable_overlay_mentions_primary_630" android:visibility="gone" android:minWidth="@dimen/uikit_spacing_large" android:layout_centerVertical="true" android:layout_marginStart="@dimen/uikit_spacing_medium" android:layout_marginEnd="@dimen/uikit_spacing_large" android:layout_alignParentEnd="true" style="@style/Icon.Mentions.Large" />
-</RelativeLayout>

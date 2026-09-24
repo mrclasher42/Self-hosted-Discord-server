@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:id="@id/chat_input_guard" android:background="?colorBackgroundSecondary" android:paddingLeft="@dimen/chat_cell_horizontal_spacing_padding" android:paddingTop="@dimen/uikit_spacing_medium" android:paddingRight="@dimen/chat_cell_horizontal_spacing_padding" android:paddingBottom="@dimen/uikit_spacing_medium" android:visibility="gone" android:paddingStart="@dimen/chat_cell_horizontal_spacing_padding" android:paddingEnd="@dimen/chat_cell_horizontal_spacing_padding" style="@style/UiKit.ViewGroup.LinearLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="?colorTextNormal" android:gravity="center" android:id="@id/chat_input_guard_text" android:paddingTop="@dimen/chat_cell_vertical_spacing_padding" android:paddingBottom="@dimen/chat_cell_vertical_spacing_padding" android:layout_width="fill_parent" style="@style/UiKit.TextView.Semibold" />
-    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?colorTextMuted" android:gravity="center" android:id="@id/chat_input_guard_subtext" android:paddingTop="2.0sp" android:paddingBottom="2.0sp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.TextView.Subtext" />
-    <TextView android:id="@id/chat_input_guard_action" android:text="@string/resend_verification_email" style="@style/UiKit.Button" />
-</LinearLayout>

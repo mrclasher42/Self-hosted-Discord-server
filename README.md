@@ -13,8 +13,7 @@
   <a href="#quick-start">Quick Start</a> •
   <a href="#configuration">Configuration</a> •
   <a href="#api-endpoints">API</a> •
-  <a href="#client">Client</a> •
-  <a href="#database">Database</a>
+    <a href="#database">Database</a>
 </p>
 
 ---
@@ -372,6 +371,33 @@ Point the Android Discord 9.9.5 client to the server URL.
 
 ---
 
+## Client
+
+The client APK is **not included** in this repository.
+
+### Build a Patched Client
+
+1. Download **Discord 9.9.5 APK** from [APKMirror](https://www.apkmirror.com/apk/discord-inc/discord-chat-for-gamers/)
+2. Place it at `client/Discord_9.9.5.apk`
+3. Run the build script:
+
+```bash
+cd client
+./build-complete.sh 192.168.1.100
+```
+
+4. Output: `client/Discord_patched.apk`
+
+### Requirements
+
+```bash
+pkg install apktool aapt aapt2 openjdk-17 zip unzip wget
+```
+
+See [client/README.md](client/README.md) for details.
+
+---
+
 ## Configuration
 
 ### config.json
@@ -495,75 +521,6 @@ The server creates a backup at `data/discord.db.bak-reset-TIMESTAMP`.
 Blocked IPs receive `403 Forbidden`.
 
 ---
-
-## Client
-
-### Files
-
-```text
-client/
-├── Discord_9.9.5.apk       # Original APK
-├── build-smart.sh           # Build script
-├── patch-client.js          # IP patcher
-└── discord_9.9.5/           # Decompiled APK
-```
-
-### Build a Patched Client
-
-```bash
-cd client
-./build-smart.sh 192.168.1.100
-```
-
-The script:
-
-1. Decompiles APK (if not already)
-2. Patches server URL in smali
-3. Compiles smali to dex
-4. Rebuilds APK
-5. Signs APK
-
-### Manual Patch
-
-```bash
-cd client/discord_9.9.5
-node ../patch-client.js 127.0.0.1 192.168.1.100
-```
-
-### Build Requirements
-
-```bash
-pkg install apktool
-pkg install aapt
-pkg install aapt2
-pkg install openjdk-17
-pkg install android-tools
-```
-
-### Output
-
-```text
-client/Discord_9.9.5_patched.apk
-```
-
-### Install
-
-```bash
-adb install client/Discord_9.9.5_patched.apk
-```
-
-Or transfer to device and install manually.
-
-### Signing Key
-
-Auto-generated on first build:
-
-```text
-client/cord.keystore
-```
-
-Password: `cordpass`  
-Alias: `cord`
 
 ---
 
@@ -1280,11 +1237,6 @@ discord-server-2019/
 │   ├── bots.js
 │   ├── mfa.js
 │   └── permissions.js
-└── client/
-    ├── Discord_9.9.5.apk
-    ├── build-smart.sh
-    ├── patch-client.js
-    └── cord.keystore
 ```
 
 ---
@@ -1324,20 +1276,6 @@ Then run:
 
 ```bash
 npm start
-```
-
-### Build client
-
-```bash
-cd client
-./build-smart.sh 192.168.1.100
-```
-
-### Manual patch client
-
-```bash
-cd client
-node patch-client.js 192.168.1.104 192.168.1.100
 ```
 
 ---

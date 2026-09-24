@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" app:cardBackgroundColor="?primary_630" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout style="@style/UiKit.ViewGroup.LinearLayout">
-        <com.discord.widgets.settings.premium.AccountCreditView android:id="@id/credit_nitro" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <View android:id="@id/credit_nitro_divider" style="@style/UiKit.Divider" />
-        <com.discord.widgets.settings.premium.AccountCreditView android:id="@id/credit_nitro_classic" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    </LinearLayout>
-</androidx.cardview.widget.CardView>

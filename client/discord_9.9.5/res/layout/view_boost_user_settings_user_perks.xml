@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/UiKit.ViewGroup.LinearLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="?primary_000" android:layout_marginTop="@dimen/uikit_spacing_large" android:text="@string/premium_guild_user_features_header" style="@style/UiKit.TextView.H1" />
-    <TextView android:textColor="?primary_000" android:text="@string/premium_guild_user_feature_member_badge" android:drawableStart="@drawable/ic_boosted_badge_24dp" style="@style/UiKit.TextView.Perk" />
-    <TextView android:textColor="?primary_000" android:text="@string/premium_guild_user_feature_profile_badge" android:drawableStart="@drawable/ic_booster_profile_badge_24dp" style="@style/UiKit.TextView.Perk" />
-    <TextView android:textColor="?primary_000" android:text="@string/premium_guild_user_feature_role" android:drawableStart="@drawable/ic_role_24dp" style="@style/UiKit.TextView.Perk" />
-</LinearLayout>
