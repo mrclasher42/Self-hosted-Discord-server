@@ -46,7 +46,6 @@
 - Status (online, idle, dnd, invisible, offline)
 - Avatar upload (static and animated)
 - Banner upload
-- Account connections (Xbox, Steam, Spotify, Twitch, Twitter, Reddit, Facebook, GitHub, YouTube)
 - Notes on users
 - Privacy settings
 - Accessibility settings
