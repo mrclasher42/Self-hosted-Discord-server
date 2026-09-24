@@ -1008,7 +1008,7 @@
     .line 81
     new-instance p2, Landroid/content/Intent;
 
-    const-string v2, "http://127.0.0.1"
+    const-string v2, "http://192.168.1.104"
 
     invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
