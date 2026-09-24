@@ -13,7 +13,8 @@
   <a href="#quick-start">Quick Start</a> •
   <a href="#configuration">Configuration</a> •
   <a href="#api-endpoints">API</a> •
-    <a href="#database">Database</a>
+    <a href="#not-implemented">Not Implemented</a> •
+  <a href="#database">Database</a>
 </p>
 
 ---
@@ -231,13 +232,12 @@
 - Session resume
 - Multiple concurrent clients
 
-### Voice
+### Voice State
 
-- Voice state tracking
-- Voice regions
-- Voice ICE servers (stub)
-- Stage instances
-- Voice status per channel
+- Voice state tracking (user status per channel)
+- Voice regions list
+- Voice ICE server list (placeholder)
+- Stage instance endpoints (partial)
 
 ### Premium / Nitro
 
@@ -252,23 +252,9 @@
 - Gift codes
 - Nitro plans
 
-### Bots & Applications
+### Webhooks (placeholder)
 
-- Bot accounts
-- Application commands (slash commands)
-- Global commands
-- Guild commands
-- Command permissions
-- Interaction callbacks
-- OAuth2 applications
-- Application assets
-
-### Webhooks
-
-- Create webhooks
-- Execute webhooks
-- Delete webhooks
-- Webhook tokens
+- Webhook CRUD endpoints (accept requests, no delivery)
 
 ### Scheduled Events
 
@@ -870,13 +856,6 @@ DELETE /api/v6/applications/:appId
 GET    /api/v6/application-directory/applications
 ```
 
-### Interactions
-
-```text
-POST   /api/v6/interactions
-POST   /api/v6/interactions/:interactionId/:interactionToken/callback
-```
-
 ### Store / Nitro
 
 ```text
@@ -1001,6 +980,80 @@ GET    /gift/:code
 GET    /developer
 GET    /favicon.ico
 ```
+
+---
+
+## Not Implemented
+
+The following features are **not fully implemented**. They accept requests but do not perform real functionality:
+
+### Voice / Video / Streaming
+
+- Real-time voice audio transmission
+- Video calls
+- Screen sharing / streaming
+- Voice codec negotiation
+- WebRTC connections
+
+Endpoints accept requests for voice state updates, but no actual audio/video is transmitted.
+
+### Bot Accounts
+
+- Bot execution runtime
+- Bot gateway connections
+- Bot commands handling
+- Bot permissions enforcement
+
+Endpoint `POST /api/v6/applications` creates an app entry, but bots cannot connect or run.
+
+### Slash Commands
+
+- Command registration
+- Command execution
+- Command permissions
+- Autocomplete
+
+Endpoints accept command definitions but do not execute them.
+
+### Interactions
+
+- Interaction callbacks
+- Button / select menu handling
+- Modal submissions
+
+Endpoints accept but do not process interactions.
+
+### Permissions Enforcement
+
+- Role-based permission checks
+- Channel permission overrides applied to actions
+- Moderator actions validated
+
+The server **does not enforce** permissions. All authenticated users can perform any action.
+
+### Search
+
+- Message search (returns empty results)
+- Member search (basic string match only)
+- Guild discovery (returns empty list)
+
+### Threads
+
+- Thread creation / persistence
+- Thread members
+- Thread archiving
+
+Endpoints accept but do not persist threads.
+
+### Other
+
+- Rate limiting (disabled)
+- Email verification (no emails sent)
+- SMS 2FA (no SMS sent)
+- Real CDN (serves local files only)
+- Real file processing (no image resizing)
+- Data export / harvest (returns stub response)
+- Reports / feedback (accepted, ignored)
 
 ---
 
