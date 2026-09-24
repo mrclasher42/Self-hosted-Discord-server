@@ -1,15 +1,46 @@
 name: Build APK
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+    inputs:
+      server_ip:
+        description: 'Server IP'
+        required: true
+        default: '192.168.1.104'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Hello
-        run: echo "Workflow is running!"
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Show files
+        run: |
+          echo "=== Root ==="
+          ls -la
+          echo ""
+          echo "=== Client ==="
+          ls -la client/
+          echo ""
+          echo "=== Smali ==="
+          ls -la client/discord_9.9.5/ | head -20
+
+      - name: Build classes.dex
+        run: |
+          cd client
+          wget -q https://bitbucket.org/JesusFreke/smali/downloads/smali-2.5.2.jar -O ../smali.jar
+          java -jar ../smali.jar assemble discord_9.9.5/smali -o work/classes.dex
+          java -jar ../smali.jar assemble discord_9.9.5/smali_classes2 -o work/classes2.dex
+          ls -lh work/
+
+      - name: Upload dex
+        uses: actions/upload-artifact@v4
+        with:
+          name: dex_files
+          path: client/work/*.dex
