@@ -1,0 +1,75 @@
+{
+  "app": {
+    "name": "Discord Server",
+    "version": "9.9.5",
+    "description": "Self-hosted Discord-compatible server"
+  },
+
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "publicIp": null,
+    "autoDetectIp": true
+  },
+
+  "database": {
+    "path": "data/discord.db",
+    "reset": {
+      "enabled": false,
+      "onStartup": false
+    }
+  },
+
+  "storage": {
+    "uploads": {
+      "path": "data/uploads/",
+      "maxSize": 52428800
+    },
+    "blobs": {
+      "path": "data/blobs/",
+      "maxSize": 52428800
+    }
+  },
+
+  "limits": {
+    "maxUploadSize": 52428800,
+    "maxMessageLength": 2000,
+    "maxUsernameLength": 32,
+    "maxGuildNameLength": 100,
+    "maxChannelNameLength": 100,
+    "maxStickerSize": 524288,
+    "maxEmojiSize": 262144,
+    "rateLimit": {
+      "enabled": false,
+      "windowMs": 60000,
+      "maxRequests": 1000
+    }
+  },
+
+  "features": {
+    "registration": true,
+    "passwordReset": true,
+    "mfa": true,
+    "connections": true,
+    "voice": false,
+    "video": false,
+    "bots": true,
+    "webhooks": true,
+    "threads": true,
+    "stickers": true,
+    "emojis": true,
+    "gifs": true,
+    "nitro": true
+  },
+
+  "security": {
+    "blockedIps": [],
+    "bannedIps": []
+  },
+
+  "logging": {
+    "requestLog": true,
+    "wsLog": true,
+    "dbLog": false
+  }
+}

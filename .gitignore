@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Database
+data/discord.db
+data/discord.db-shm
+data/discord.db-wal
+data/discord.db-journal
+data/*.bak-reset-*
+
+# Uploads
+data/uploads/
+data/blobs/
+!data/uploads/.gitkeep
+!data/blobs/.gitkeep
+
+# Client APK (large file)
+client/*.apk
+client/discord_9.9.5/
+client/work/
+client/*.idsig
+
+# Keystore (sensitive)
+client/cord.keystore
+*.keystore
+*.jks
+
+# Backups
+*.bak
+*.bak-*
+backups/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+*.bak
