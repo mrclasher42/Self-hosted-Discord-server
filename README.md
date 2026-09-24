@@ -2,10 +2,10 @@
   <img src="discord-icon.png" alt="Discord Server" width="120" height="120">
 </p>
 
-<h1 align="center">Discord Server 9.9.5</h1>
+<h1 align="center">Discord Server v9.9.5</h1>
 
 <p align="center">
-  Self-hosted Discord-compatible server for Android Discord 9.9.5 clients
+  Self-hosted Discord-compatible server for Android Discord v9.9.5 clients
 </p>
 
 <p align="center">
