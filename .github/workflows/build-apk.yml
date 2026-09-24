@@ -1,0 +1,102 @@
+name: Build Discord APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      server_ip:
+        description: 'Server IP address (e.g., 192.168.1.100)'
+        required: true
+        default: '192.168.1.104'
+      server_port:
+        description: 'Server port'
+        required: true
+        default: '8080'
+      old_ip:
+        description: 'Old IP to replace (leave default)'
+        required: true
+        default: '192.168.1.104'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install apktool
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip zip
+          wget -q https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O /usr/local/bin/apktool.jar
+          echo '#!/bin/bash\njava -jar /usr/local/bin/apktool.jar "$@"' | sudo tee /usr/local/bin/apktool
+          sudo chmod +x /usr/local/bin/apktool
+          apktool --version
+
+      - name: Install smali
+        run: |
+          wget -q https://bitbucket.org/JesusFreke/smali/downloads/smali-2.5.2.jar -O smali.jar
+          ls -lh smali.jar
+
+      - name: Patch IPs in smali
+        run: |
+          cd client
+          OLD_IP="${{ github.event.inputs.old_ip }}"
+          NEW_IP="${{ github.event.inputs.server_ip }}"
+          echo "Replacing $OLD_IP with $NEW_IP"
+          node patch-client.js "$OLD_IP" "$NEW_IP"
+
+      - name: Build classes.dex
+        run: |
+          cd client
+          java -jar ../smali.jar assemble discord_9.9.5/smali -o work/classes.dex
+          java -jar ../smali.jar assemble discord_9.9.5/smali_classes2 -o work/classes2.dex
+          ls -lh work/
+
+      - name: Build APK with apktool
+        run: |
+          cd client
+          apktool b discord_9.9.5 -o Discord_patched.apk --use-aapt2 2>&1 | tail -20
+          ls -lh Discord_patched.apk
+
+      - name: Sign APK
+        run: |
+          cd client
+          # Remove old signature
+          zip -d Discord_patched.apk "META-INF/*.RSA" "META-INF/*.SF" "META-INF/*.DSA" "META-INF/MANIFEST.MF" || true
+
+          # Sign
+          apksigner sign \
+            --ks cord.keystore \
+            --ks-pass "pass:cordpass" \
+            --key-pass "pass:cordpass" \
+            --ks-key-alias cord \
+            Discord_patched.apk
+
+          # Verify
+          apksigner verify --print-certs Discord_patched.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Discord_patched_${{ github.event.inputs.server_ip }}
+          path: client/Discord_patched.apk
+          retention-days: 30
+
+      - name: Summary
+        run: |
+          echo "## Build Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Server IP**: ${{ github.event.inputs.server_ip }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Server Port**: ${{ github.event.inputs.server_port }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **APK**: Download from Artifacts" >> $GITHUB_STEP_SUMMARY
+          ls -lh client/Discord_patched.apk >> $GITHUB_STEP_SUMMARY
