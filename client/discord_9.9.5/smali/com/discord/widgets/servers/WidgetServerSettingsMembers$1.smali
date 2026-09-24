@@ -1,0 +1,89 @@
+.class Lcom/discord/widgets/servers/WidgetServerSettingsMembers$1;
+.super Ljava/lang/Object;
+.source "WidgetServerSettingsMembers.java"
+
+# interfaces
+.implements Landroid/widget/AdapterView$OnItemSelectedListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/discord/widgets/servers/WidgetServerSettingsMembers;->setupRolesSpinner(J)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/discord/widgets/servers/WidgetServerSettingsMembers;
+
+.field final synthetic val$rolesSpinnerAdapter:Lcom/discord/widgets/servers/WidgetServerSettingsMembers$RolesSpinnerAdapter;
+
+
+# direct methods
+.method constructor <init>(Lcom/discord/widgets/servers/WidgetServerSettingsMembers;Lcom/discord/widgets/servers/WidgetServerSettingsMembers$RolesSpinnerAdapter;)V
+    .locals 0
+
+    .line 217
+    iput-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsMembers$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsMembers;
+
+    iput-object p2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsMembers$1;->val$rolesSpinnerAdapter:Lcom/discord/widgets/servers/WidgetServerSettingsMembers$RolesSpinnerAdapter;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/widget/AdapterView<",
+            "*>;",
+            "Landroid/view/View;",
+            "IJ)V"
+        }
+    .end annotation
+
+    .line 220
+    iget-object p1, p0, Lcom/discord/widgets/servers/WidgetServerSettingsMembers$1;->val$rolesSpinnerAdapter:Lcom/discord/widgets/servers/WidgetServerSettingsMembers$RolesSpinnerAdapter;
+
+    invoke-virtual {p1, p3}, Lcom/discord/widgets/servers/WidgetServerSettingsMembers$RolesSpinnerAdapter;->getItem(I)Lcom/discord/widgets/servers/WidgetServerSettingsMembers$RolesSpinnerAdapter$RoleSpinnerItem;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    .line 222
+    iget-object p2, p0, Lcom/discord/widgets/servers/WidgetServerSettingsMembers$1;->this$0:Lcom/discord/widgets/servers/WidgetServerSettingsMembers;
+
+    invoke-static {p2}, Lcom/discord/widgets/servers/WidgetServerSettingsMembers;->access$100(Lcom/discord/widgets/servers/WidgetServerSettingsMembers;)Lrx/subjects/Subject;
+
+    move-result-object p2
+
+    iget-object p1, p1, Lcom/discord/widgets/servers/WidgetServerSettingsMembers$RolesSpinnerAdapter$RoleSpinnerItem;->roleId:Ljava/lang/Long;
+
+    invoke-virtual {p2, p1}, Lrx/subjects/Subject;->onNext(Ljava/lang/Object;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public onNothingSelected(Landroid/widget/AdapterView;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/widget/AdapterView<",
+            "*>;)V"
+        }
+    .end annotation
+
+    return-void
+.end method

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?primary_600" android:padding="@dimen/uikit_spacing_large" android:layout_height="fill_parent" android:weightSum="2.0" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/uikit_spacing_large" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_large" android:src="@drawable/img_guild_use_cases" android:adjustViewBounds="true" android:maxHeight="104.0dip" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+    <TextView android:layout_gravity="center" android:layout_marginBottom="@dimen/uikit_spacing_medium" android:text="@string/nuf_get_started" style="@style/UiKit.TextView.H1" />
+    <TextView android:layout_gravity="center" android:layout_marginBottom="@dimen/uikit_spacing_xxlarge" android:text="@string/nuf_what_do_you_want" style="@style/UiKit.TextView" />
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?primary_630" app:cardCornerRadius="8.0dip" app:strokeColor="?primary_660" app:strokeWidth="1.0dip">
+        <LinearLayout style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:id="@id/nux_guild_use_cases_item_voice_chat" android:text="@string/nuf_voice_chat_while_gaming" android:drawableStart="@drawable/guild_use_cases_voice_chat_32dp" android:drawableEnd="?ic_navigate_next" style="@style/UiKit.ListItem.Icon" />
+            <TextView android:id="@id/nux_guild_use_cases_item_chat_with_friends" android:text="@string/nuf_chat_with_friends" android:drawableStart="@drawable/guild_use_cases_chat_bubble_32dp" android:drawableEnd="?ic_navigate_next" style="@style/UiKit.ListItem.Icon" />
+            <TextView android:id="@id/nux_guild_use_cases_item_club" android:text="@string/nuf_club_or_interest_group" android:drawableStart="@drawable/guild_use_cases_club_32dp" android:drawableEnd="?ic_navigate_next" style="@style/UiKit.ListItem.Icon" />
+            <TextView android:id="@id/nux_guild_use_cases_item_gaming" android:text="@string/nuf_gaming_community" android:drawableStart="@drawable/guild_use_cases_gaming_32dp" android:drawableEnd="?ic_navigate_next" style="@style/UiKit.ListItem.Icon" />
+            <TextView android:id="@id/nux_guild_use_cases_item_join_a_friend" android:text="@string/nuf_join_a_friend" android:drawableStart="@drawable/guild_use_cases_join_friend_32dp" android:drawableEnd="?ic_navigate_next" style="@style/UiKit.ListItem.Icon" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/nux_guild_use_cases_dismiss" android:background="?bg_pressed_highlight" android:padding="@dimen/uikit_spacing_large" android:layout_marginTop="@dimen/uikit_spacing_xlarge" android:layout_marginBottom="@dimen/uikit_spacing_xlarge" android:text="@string/nuf_just_look_around" style="@style/UiKit.TextView" />
+</LinearLayout>

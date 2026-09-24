@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="315.0dip" android:layout_margin="@dimen/uikit_spacing_medium" app:cardBackgroundColor="?primary_630" app:cardCornerRadius="@dimen/uikit_spacing_small">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/server_boost_status_empty_text" android:background="?primary_630" android:padding="@dimen/uikit_spacing_large" android:drawableTop="@drawable/img_server_nitro_status" android:drawablePadding="@dimen/uikit_spacing_xlarge" android:textAllCaps="true" style="@style/UiKit.TextView" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

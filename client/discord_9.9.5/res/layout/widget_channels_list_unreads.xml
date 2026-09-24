@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/channels_list_unreads_background" android:background="@drawable/drawable_button_grey" android:paddingLeft="@dimen/uikit_spacing_xsmall" android:paddingTop="3.0dip" android:paddingRight="@dimen/uikit_spacing_xsmall" android:paddingBottom="3.0dip" android:layout_margin="@dimen/uikit_spacing_medium" android:elevation="@dimen/uikit_spacing_xsmall" style="@style/UiKit.ViewGroup.RelativeLayout">
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:ellipsize="none" android:id="@id/channels_list_unreads" android:drawablePadding="@dimen/uikit_spacing_xsmall" android:layout_centerInParent="true" android:textAllCaps="true" style="@style/UiKit.TextView.Subtext.SingleLine" />
+    </RelativeLayout>
+</FrameLayout>

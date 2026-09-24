@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_feed_now_playing_header_two_known_extras">
+        <item quantity="other">%s kiti</item>
+        <item quantity="one">%s kitas</item>
+    </plurals>
+    <plurals name="activity_feed_recently_played_header_multiple_extra">
+        <item quantity="other">%s kiti</item>
+        <item quantity="one">%s kitas</item>
+    </plurals>
+    <plurals name="activity_feed_single_member_list_header_memberCount">
+        <item quantity="other">%s žmonės</item>
+        <item quantity="one">%s asmuo</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_days_ago_time">
+        <item quantity="other">d.</item>
+        <item quantity="one">prieš d.</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_hours_ago_time">
+        <item quantity="other">val.</item>
+        <item quantity="one">val.</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_minutes_ago_time">
+        <item quantity="other">min.</item>
+        <item quantity="one">min.</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_seconds_ago_time">
+        <item quantity="other">sek.</item>
+        <item quantity="one">sek.</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_hours_timeRemaining">
+        <item quantity="other">%s valandos (-ų)</item>
+        <item quantity="one">%s valanda</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_minutes_timeRemaining">
+        <item quantity="other">%s minutės (-čių)</item>
+        <item quantity="one">%s minutė</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_seconds_timeRemaining">
+        <item quantity="other">%s sek.</item>
+        <item quantity="one">tuoj bus baigta, liko</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_hours_timeRemaining">
+        <item quantity="other">%s valandos (-ų)</item>
+        <item quantity="one">%s valanda</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_minutes_timeRemaining">
+        <item quantity="other">%s minutės (-čių)</item>
+        <item quantity="one">%s minutė</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_seconds_timeRemaining">
+        <item quantity="other">%s sek.</item>
+        <item quantity="one">tuoj bus baigta, liko</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_monthly_mobile_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_monthly_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_yearly_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_yearly_mobile_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="application_store_hide_games_in_library_hidden_gamesHidden">
+        <item quantity="other">%s bibliotekos žaidimai</item>
+        <item quantity="one">%s bibliotekos žaidimas</item>
+    </plurals>
+    <plurals name="application_store_recommendation_ever_played_other_count">
+        <item quantity="other">%s žmonės (-ių)</item>
+        <item quantity="one">1 asmuo</item>
+    </plurals>
+    <plurals name="application_store_recommendation_now_playing_other_count">
+        <item quantity="other">%s žmonės (-ių)</item>
+        <item quantity="one">1 asmuo</item>
+    </plurals>
+    <plurals name="application_store_recommendation_recently_played_other_count">
+        <item quantity="other">%s žmonės (-ių)</item>
+        <item quantity="one">1 asmuo</item>
+    </plurals>
+    <plurals name="bans_header_bans">
+        <item quantity="other">%s Užblokuoti</item>
+        <item quantity="zero">Nerasta Užblokuotų Narių</item>
+        <item quantity="one">1 Užblokuotas</item>
+    </plurals>
+    <plurals name="billing_refund_purchase_date_daysSincePurchase">
+        <item quantity="other">prieš %s dien.</item>
+        <item quantity="zero">Šiandien</item>
+        <item quantity="one">%s dien.</item>
+    </plurals>
+    <plurals name="blocked_messages_count">
+        <item quantity="other">%s Užblokuotos Žinutės</item>
+        <item quantity="one">1 Užblokuota Žinutė</item>
+    </plurals>
+    <plurals name="channel_slowmode_cooldown_seconds">
+        <item quantity="other">%s sekundžių</item>
+        <item quantity="one">1 sekundės</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_seconds">
+        <item quantity="other">%s sek.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_seconds">
+        <item quantity="other">%s sek.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_seconds">
+        <item quantity="other">%s sekundes.</item>
+        <item quantity="one">1 sekundę</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_hours_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_minutes_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">%s min.</item>
+    </plurals>
+    <plurals name="custom_status_hours_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="custom_status_minutes_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">%s min.</item>
+    </plurals>
+    <plurals name="duration_days_days">
+        <item quantity="other">%s dienos</item>
+        <item quantity="one">1 diena</item>
+    </plurals>
+    <plurals name="duration_hours_hours">
+        <item quantity="other">%s valandos</item>
+        <item quantity="one">1 valanda</item>
+    </plurals>
+    <plurals name="duration_hours_short_hours">
+        <item quantity="other">%sval.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="duration_mins_mins">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_minutes_minutes">
+        <item quantity="other">%s minutės</item>
+        <item quantity="one">1 minutė</item>
+    </plurals>
+    <plurals name="duration_minutes_short_minutes">
+        <item quantity="other">%smin.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_seconds_seconds">
+        <item quantity="other">%s sekundės</item>
+        <item quantity="zero">1 sekundė</item>
+    </plurals>
+    <plurals name="duration_seconds_short_seconds">
+        <item quantity="other">%ss</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="emoji_slots_available_count">
+        <item quantity="other">%s vietos</item>
+        <item quantity="zero">nebėra laisvų vietų</item>
+        <item quantity="one">%s vieta</item>
+    </plurals>
+    <plurals name="form_help_last_seen_days">
+        <item quantity="other">%s d.</item>
+        <item quantity="one">1 d.</item>
+    </plurals>
+    <plurals name="form_help_last_seen_members">
+        <item quantity="zero">0 narių</item>
+        <item quantity="one">1 narį</item>
+    </plurals>
+    <plurals name="game_feed_user_played_days_ago_time">
+        <item quantity="other">dienas</item>
+        <item quantity="one">dieną</item>
+    </plurals>
+    <plurals name="game_feed_user_played_hours_ago_time">
+        <item quantity="other">valandas</item>
+        <item quantity="one">valandą</item>
+    </plurals>
+    <plurals name="game_feed_user_played_minutes_ago_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minutę</item>
+    </plurals>
+    <plurals name="game_feed_user_played_months_ago_time">
+        <item quantity="other">mėnesius (-ų)</item>
+        <item quantity="one">mėnesį</item>
+    </plurals>
+    <plurals name="game_feed_user_played_weeks_ago_time">
+        <item quantity="other">savaites (-čių)</item>
+        <item quantity="one">savaitę</item>
+    </plurals>
+    <plurals name="game_feed_user_played_years_ago_time">
+        <item quantity="other">metus (-ų)</item>
+        <item quantity="one">metus</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_days_time">
+        <item quantity="other">dienas</item>
+        <item quantity="one">diena</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_hours_time">
+        <item quantity="other">valandas</item>
+        <item quantity="one">valandą</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_minutes_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minutę</item>
+    </plurals>
+    <plurals name="game_library_last_played_days_time">
+        <item quantity="other">%s dienas</item>
+        <item quantity="one">vakar, prieš</item>
+    </plurals>
+    <plurals name="game_library_last_played_hours_time">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="game_library_last_played_minutes_time">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">%s min.</item>
+    </plurals>
+    <plurals name="game_library_last_played_months_time">
+        <item quantity="other">%s mėnesius</item>
+        <item quantity="one">praėjusį mėnesį, prieš</item>
+    </plurals>
+    <plurals name="game_library_last_played_weeks_time">
+        <item quantity="other">%s savaičių</item>
+        <item quantity="one">parėjusią savaitę, prieš</item>
+    </plurals>
+    <plurals name="game_library_last_played_years_time">
+        <item quantity="other">%s metus</item>
+        <item quantity="one">praėjusiais metais, prieš</item>
+    </plurals>
+    <plurals name="game_library_time_played_hours_time">
+        <item quantity="other">val.</item>
+        <item quantity="one">val.</item>
+    </plurals>
+    <plurals name="game_library_time_played_minutes_time">
+        <item quantity="other">min.</item>
+        <item quantity="one">min.</item>
+    </plurals>
+    <plurals name="game_library_time_played_seconds_time">
+        <item quantity="other">sek.</item>
+        <item quantity="one">sek.</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_hours_timeRemaining">
+        <item quantity="other">%s valandos (-ų)</item>
+        <item quantity="one">liko 1 valanda</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_minutes_timeRemaining">
+        <item quantity="other">%s minutės (-čių)</item>
+        <item quantity="one">liko 1 minutė</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_seconds_timeRemaining">
+        <item quantity="other">%s sek.</item>
+        <item quantity="one">tuoj bus baigta, liko</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_hours_timeRemaining">
+        <item quantity="other">%s valandos (-ų)</item>
+        <item quantity="one">liko 1 valanda</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_minutes_timeRemaining">
+        <item quantity="other">%s minutės (-čių)</item>
+        <item quantity="one">liko 1 minutė</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_seconds_timeRemaining">
+        <item quantity="other">%s sek.</item>
+        <item quantity="one">tuoj bus baigta, liko</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_monthly_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_yearly_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_monthly_confirm_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_yearly_confirm_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_monthly_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_yearly_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_monthly_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_yearly_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_months_time">
+        <item quantity="other">mėn.</item>
+        <item quantity="one">mėn.</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_years_time">
+        <item quantity="other">m.</item>
+        <item quantity="one">m.</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_months_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_years_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_months_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_years_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="gift_embed_expiration_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="gift_inventory_copies_copies">
+        <item quantity="other">%s kopijos (-ų)</item>
+        <item quantity="one">%s kopija</item>
+    </plurals>
+    <plurals name="gift_inventory_expires_in_mobile_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_months_intervalCount">
+        <item quantity="other">%s mėn.</item>
+        <item quantity="one">%s mėn.</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_years_intervalCount">
+        <item quantity="other">%s m.</item>
+        <item quantity="one">%s m.</item>
+    </plurals>
+    <plurals name="guild_discovery_header_search_results_count">
+        <item quantity="other">%s rezultatai (-ų)</item>
+        <item quantity="one">1 rezultatas</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_denied_count">
+        <item quantity="other">leidimai</item>
+        <item quantity="one">leidimas</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_granted_count">
+        <item quantity="other">leidimus</item>
+        <item quantity="one">leidimą</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_change_newValue">
+        <item quantity="other">Lėtasis režimas nustatytas **!!%s!! sekundėms**</item>
+        <item quantity="zero">I</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_create_newValue">
+        <item quantity="other">Nustatyti lėtąjį režimą **!!%s!! sekundėms**</item>
+        <item quantity="zero">Išjungti lėtąjį režimą</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_count">
+        <item quantity="other">**!!%s!! narius**</item>
+        <item quantity="one">**narį**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_delete_days_newValue">
+        <item quantity="other">%s dienos</item>
+        <item quantity="one">diena</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_add_count">
+        <item quantity="other">keletą rolių</item>
+        <item quantity="one">rolę</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_remove_count">
+        <item quantity="other">keletas rolių</item>
+        <item quantity="one">rolė</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_message_delete_count">
+        <item quantity="other">**!!%s!! Žinutes**</item>
+        <item quantity="one">**Žinute**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_denied_count">
+        <item quantity="other">leidimus</item>
+        <item quantity="one">leidimą</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_granted_count">
+        <item quantity="other">leidimus</item>
+        <item quantity="one">leidimą</item>
+    </plurals>
+    <plurals name="guild_settings_overview_boost_unlock_boosts">
+        <item quantity="other">%s stiprinimai (-ų)</item>
+        <item quantity="one">%s stiprinimas</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_close_hint_numLeft">
+        <item quantity="other">%s stiprinimų</item>
+        <item quantity="one">%s stiprinimo</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_count_subscribers_count">
+        <item quantity="other">%s labai „kieti“ žmonės</item>
+        <item quantity="one">%s labai „kietas“ asmuo</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_tier_requirement_required">
+        <item quantity="other">%s stiprinimus</item>
+        <item quantity="one">%s stiprinimą</item>
+    </plurals>
+    <plurals name="guild_subscription_purchase_modal_activated_description_guildSubscriptionQuantity">
+        <item quantity="other">tiek kartų: %s</item>
+        <item quantity="one">%s kartą</item>
+    </plurals>
+    <plurals name="instant_invite_guild_members_total_count">
+        <item quantity="other">%s Nariai</item>
+        <item quantity="one">1 Narys</item>
+    </plurals>
+    <plurals name="invite_embed_num_open_slots_number">
+        <item quantity="other">vietos</item>
+        <item quantity="one">vieta</item>
+    </plurals>
+    <plurals name="invite_expires_days_or_uses_numUses">
+        <item quantity="other">%s naudojimų</item>
+        <item quantity="one">%s naudojimo</item>
+    </plurals>
+    <plurals name="invite_expires_hours_numHours">
+        <item quantity="other">%s valandų</item>
+        <item quantity="one">%s valandos</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numHours">
+        <item quantity="other">%s valandų</item>
+        <item quantity="one">%s valandos</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numUses">
+        <item quantity="other">%s naudojimų</item>
+        <item quantity="one">%s naudojimo</item>
+    </plurals>
+    <plurals name="invite_expires_minutes_or_uses_numUses">
+        <item quantity="other">%s naudojimų</item>
+        <item quantity="one">%s naudojimo</item>
+    </plurals>
+    <plurals name="invite_expires_uses_numUses">
+        <item quantity="other">%s naudojimų</item>
+        <item quantity="one">%s naudojimo</item>
+    </plurals>
+    <plurals name="last_seen_days">
+        <item quantity="other">%s dienas(-ų)</item>
+        <item quantity="one">1 dieną</item>
+    </plurals>
+    <plurals name="live_viewers_viewers">
+        <item quantity="other">stebėtojai (-ų)</item>
+        <item quantity="one">stebėtojas</item>
+    </plurals>
+    <plurals name="max_uses_description_mobile_maxUses">
+        <item quantity="other">%s panaudojimai</item>
+        <item quantity="zero">neriboti panaudojimai</item>
+        <item quantity="one">1 panaudojimas</item>
+    </plurals>
+    <plurals name="max_uses_maxUses">
+        <item quantity="other">%s panaudojimai (-ų)</item>
+        <item quantity="zero">Nėra limito</item>
+        <item quantity="one">1 panaudojimas</item>
+    </plurals>
+    <plurals name="members_header_members">
+        <item quantity="other">%s Nariai</item>
+        <item quantity="zero">Nėra Narių</item>
+        <item quantity="one">1 Narys</item>
+    </plurals>
+    <plurals name="n_days_days">
+        <item quantity="other">%s dienos</item>
+        <item quantity="one">1 diena</item>
+    </plurals>
+    <plurals name="new_messages_count">
+        <item quantity="other">%s nauji pranešimai (-ų)</item>
+        <item quantity="one">1 naujas pranešimas</item>
+    </plurals>
+    <plurals name="new_messages_with_date_count">
+        <item quantity="other">%s nauji pranešimai</item>
+        <item quantity="one">1 naujas pranešimas</item>
+    </plurals>
+    <plurals name="notice_premium_grandfathered_ending_numDays">
+        <item quantity="other">%s d.</item>
+        <item quantity="one">viena diena</item>
+    </plurals>
+    <plurals name="num_channels_num">
+        <item quantity="other">%s kanalus</item>
+        <item quantity="one">%s kanalo</item>
+    </plurals>
+    <plurals name="num_members_subscribers">
+        <item quantity="other">**%s** nariai (-ių)</item>
+        <item quantity="zero">**0** narių</item>
+        <item quantity="one">**1** narys</item>
+    </plurals>
+    <plurals name="num_subscribers_subscribers">
+        <item quantity="other">**%s** prenumeratoriai</item>
+        <item quantity="zero">**0** prenumeratorių</item>
+        <item quantity="one">**1** prenumeratorius</item>
+    </plurals>
+    <plurals name="num_users_num">
+        <item quantity="other">%s naudotojai</item>
+        <item quantity="one">1 vartotojas</item>
+    </plurals>
+    <plurals name="only_you_can_see_and_delete_these_count">
+        <item quantity="other">šias žinutes</item>
+        <item quantity="one">šią žinute</item>
+    </plurals>
+    <plurals name="partial_outage_a11y_count">
+        <item quantity="other">%s serveriai (-ių) yra nepasiekiami dėl laikinos perkrovos.</item>
+        <item quantity="one">1 serveris yra nepasiekiamas dėl laikinos perkrovos.</item>
+    </plurals>
+    <plurals name="partial_outage_count">
+        <item quantity="other">Kitų dėl laikinos perkrovos nepasiekiamų serverių skaičius: **%s**.</item>
+        <item quantity="one">Dėl laikinos perkrovos nepasiekiamas **1** kitas serveris.</item>
+    </plurals>
+    <plurals name="premium_chat_perks_description_premium_guild_included_numFreeGuildSubscriptions">
+        <item quantity="other">%s stiprinimai (-ų)</item>
+        <item quantity="one">stiprinimas</item>
+    </plurals>
+    <plurals name="premium_guild_num_month_guild_subscriptions_num">
+        <item quantity="other">serverio stiprinimai (-ų)</item>
+        <item quantity="one">serverio stiprinimas</item>
+    </plurals>
+    <plurals name="premium_guild_num_year_guild_subscriptions_num">
+        <item quantity="other">serverio stiprinimai (-ų)</item>
+        <item quantity="one">serverio stiprinimas</item>
+    </plurals>
+    <plurals name="premium_guild_perks_modal_header_user_subscription_count_numSubscriptions">
+        <item quantity="other">tiek kartų: %s!</item>
+        <item quantity="one">%s kartą</item>
+    </plurals>
+    <plurals name="premium_guild_settings_members_subscribed_needed_number">
+        <item quantity="other">%s stiprinimų</item>
+        <item quantity="one">%s stiprinimo</item>
+    </plurals>
+    <plurals name="premium_guild_settings_x_of_y_subscriptions_numRequired">
+        <item quantity="other">%s stiprinimai (-ų)</item>
+        <item quantity="one">%s stiprinimas</item>
+    </plurals>
+    <plurals name="premium_guild_subscribe_confirm_cooldown_warning_days">
+        <item quantity="other">%s d.</item>
+        <item quantity="one">%s d.</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_available_count_num">
+        <item quantity="other">%s Yra serverio stiprinimų</item>
+        <item quantity="one">%s serverio stiprinimą</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_days">
+        <item quantity="other">%s d.</item>
+        <item quantity="one">%s d.</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">%s min.</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_minutes_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">%s min.</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_days">
+        <item quantity="other">%s d.</item>
+        <item quantity="one">%s d.</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_hours">
+        <item quantity="other">%s val.</item>
+        <item quantity="one">%s val.</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">%s min.</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_minutes_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">%s min.</item>
+    </plurals>
+    <plurals name="publish_followed_news_fail_body_retryAfter">
+        <item quantity="other">%s min</item>
+        <item quantity="one">1 minutės</item>
+    </plurals>
+    <plurals name="reaction_tooltip_1_n_n">
+        <item quantity="other">%s kiti</item>
+        <item quantity="one">1 kitas</item>
+    </plurals>
+    <plurals name="reaction_tooltip_2_n_n">
+        <item quantity="other">%s kiti</item>
+        <item quantity="one">1 kitas</item>
+    </plurals>
+    <plurals name="reaction_tooltip_3_n_n">
+        <item quantity="other">%s kiti</item>
+        <item quantity="one">1 kitas</item>
+    </plurals>
+    <plurals name="reaction_tooltip_n_n">
+        <item quantity="other">%s žmonių</item>
+        <item quantity="one">1 žmogus</item>
+    </plurals>
+    <plurals name="roles_list_numRoles">
+        <item quantity="other">Rolės</item>
+        <item quantity="zero">Nerasta Rolių</item>
+        <item quantity="one">Rolė</item>
+    </plurals>
+    <plurals name="search_hide_blocked_messages_count">
+        <item quantity="other">%s pranešimus</item>
+        <item quantity="one">%s pranešimą</item>
+    </plurals>
+    <plurals name="search_num_results_blocked_not_shown_count">
+        <item quantity="other">%s rezultatus</item>
+        <item quantity="one">%s rezultatus</item>
+    </plurals>
+    <plurals name="search_still_indexing_hint_count">
+        <item quantity="other">%s rezultatai</item>
+        <item quantity="zero">Nėra rezultatų</item>
+        <item quantity="one">%s rezultatas</item>
+    </plurals>
+    <plurals name="spotify_listen_along_title_host_count">
+        <item quantity="other">Klausytojai</item>
+        <item quantity="one">Klausytojas</item>
+    </plurals>
+    <plurals name="total_results_count">
+        <item quantity="other">%s Rezultatai</item>
+        <item quantity="zero">Nėra rezultatų</item>
+        <item quantity="one">%s Rezultatas</item>
+    </plurals>
+    <plurals name="uploading_files_count">
+        <item quantity="other">Įkeliama failų: %s</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_hours">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_minutes">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_seconds">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_hours">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_minutes">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_seconds">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_days_time">
+        <item quantity="other">dienos</item>
+        <item quantity="one">diena</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_hours_time">
+        <item quantity="other">valandas</item>
+        <item quantity="one">valandą</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_minutes_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="user_profile_mutual_friends_count">
+        <item quantity="other">%s bendri (-ų) draugai (-ų)</item>
+        <item quantity="zero">0 bendrų draugų</item>
+        <item quantity="one">1 bendras draugas</item>
+    </plurals>
+    <plurals name="user_profile_mutual_guilds_count">
+        <item quantity="other">%s bendri (-ų) serveriai (-ių)</item>
+        <item quantity="zero">0 bendrų serverių</item>
+        <item quantity="one">1 bendras serveris</item>
+    </plurals>
+    <plurals name="voice_call_member_list_title_count">
+        <item quantity="other">%s asmenys (-ų)</item>
+        <item quantity="one">%s asmuo</item>
+    </plurals>
+</resources>

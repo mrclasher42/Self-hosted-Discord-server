@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.discord.widgets.chat.list.WidgetChatList" android:id="@id/widget_chat_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/widget_chat_input" android:layout_below="@id/action_bar_toolbar_layout" />
+    <fragment android:name="com.discord.widgets.friends.WidgetFriendsList" android:id="@id/widget_friends_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_toolbar_layout" />
+    <fragment android:name="com.discord.widgets.status.WidgetStatus" android:id="@id/widget_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar_toolbar_layout" />
+    <fragment android:name="com.discord.widgets.chat.overlay.WidgetChatOverlay" android:id="@id/widget_chat_overlay_actions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/widget_chat_input" android:layout_centerHorizontal="true" />
+    <fragment android:name="com.discord.widgets.chat.input.WidgetChatInput" android:id="@id/widget_chat_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/widget_chat_voice" android:layout_alignWithParentIfMissing="true" />
+    <fragment android:name="com.discord.widgets.voice.call.WidgetVoiceCallInline" android:id="@id/widget_chat_voice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/main_panel_center_nsfw" android:layout="@layout/widget_main_panel_center_nsfw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_toolbar_layout" />
+    <ViewStub android:id="@id/main_panel_center_channel_less" android:layout="@layout/widget_main_panel_center_channel_less" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_toolbar_layout" />
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout">
+        <androidx.appcompat.widget.Toolbar app:contentInsetStartWithNavigation="0.0dip" style="@style/AppTheme.Toolbar" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/action_bar_tabs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="?tabSelectedTextColor" app:tabMode="scrollable" app:tabSelectedTextColor="?tabSelectedTextColor" app:tabTextAppearance="@style/App.TabLayout.Text" app:tabTextColor="?tabTextColor" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/widget_main_panel_center_content_unread" />
+</merge>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:fitsSystemWindows="true" style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/drawable_auth_splash" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+    <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/uikit_spacing_medium" app:cardBackgroundColor="@color/primary_630" app:cardCornerRadius="8.0dip" app:cardElevation="8.0dip" app:strokeColor="@color/primary_800" app:strokeWidth="1.0dip" style="@style/Widget.MaterialComponents.CardView">
+        <LinearLayout android:id="@id/oauth_authorize_not_supported" android:visibility="gone" style="@style/UiKit.ViewGroup.LinearLayout">
+            <TextView android:background="@color/primary_700" android:padding="@dimen/uikit_spacing_large" android:layout_width="fill_parent" android:text="@string/scope_unsupported_on_android" style="@style/UiKit.TextView.H1" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:layout_margin="@dimen/uikit_spacing_xlarge" android:text="@string/scope_unsupported_on_android_description" android:drawableBottom="@drawable/img_baddies_dark_theme" android:drawablePadding="@dimen/uikit_spacing_large" style="@style/UiKit.TextView" />
+            <Button android:id="@id/oauth_authorize_unsupported_browser" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:text="@string/open_in_browser" style="@style/UiKit.Button" />
+            <Button android:id="@id/oauth_authorize_unsupported_cancel" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_medium" android:text="@string/cancel" style="@style/UiKit.Button.Transparent" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/oauth_authorize_content" android:visibility="gone" android:animateLayoutChanges="true" style="@style/UiKit.ViewGroup.LinearLayout">
+            <RelativeLayout android:background="@color/primary_700" android:padding="@dimen/uikit_spacing_large" style="@style/UiKit.ViewGroup.RelativeLayout">
+                <com.facebook.drawee.view.SimpleDraweeView android:id="@id/oauth_authorize_application_icon" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentEnd="true" app:placeholderImage="?ic_game_icon_placeholder" app:placeholderImageScaleType="fitCenter" app:roundingBorderColor="@color/primary_200_alpha_30" style="@style/Avatar.Large" />
+                <TextView android:id="@id/oauth_authorize_connect_label" android:text="@string/oauth2_connect_to_discord" android:layout_alignParentTop="true" android:layout_toStartOf="@id/oauth_authorize_application_icon" android:layout_alignParentStart="true" style="@style/UiKit.TextView.H2" />
+                <TextView android:textSize="24.0sp" android:id="@id/oauth_authorize_application_name" android:layout_below="@id/oauth_authorize_connect_label" android:layout_toStartOf="@id/oauth_authorize_application_icon" android:layout_alignParentStart="true" style="@style/UiKit.TextView.H1.Bold" />
+            </RelativeLayout>
+            <com.discord.app.AppTextView android:id="@id/oauth_authorize_permissions_label_tv" style="@style/UiKit.Settings.Item.Header" />
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/oauth_authorize_permissions_list" android:paddingBottom="@dimen/uikit_spacing_large" android:clipToPadding="false" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_weight="1.0" android:fadeScrollbars="false" style="@style/UiKit.ViewGroup.RecyclerView" />
+            <View android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" style="@style/UiKit.Divider.Thick" />
+            <com.discord.app.AppTextView android:textColor="@color/primary_400" android:id="@id/oauth_authorize_security_notice" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:lineSpacingMultiplier="1.0" app:tv_markdown_enabled="true" style="@style/UiKit.Auth.Note.Rotatable" />
+            <LinearLayout style="@style/UiKit.ViewGroup.LinearLayout.Rotatable">
+                <Button android:id="@id/oauth_authorize_grant" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:text="@string/authorize" android:layout_weight="1.0" style="@style/UiKit.Button" />
+                <Button android:id="@id/oauth_authorize_deny" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_medium" android:text="@string/cancel" android:layout_weight="1.0" style="@style/UiKit.Button.Transparent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/oauth_authorize_loading" style="@style/UiKit.ViewGroup.LinearLayout">
+            <ProgressBar android:layout_gravity="center" android:padding="@dimen/uikit_spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/uikit_spacing_large" />
+            <Button android:id="@id/oauth_authorize_loading_cancel" android:text="@string/cancel" style="@style/UiKit.Button.Transparent" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

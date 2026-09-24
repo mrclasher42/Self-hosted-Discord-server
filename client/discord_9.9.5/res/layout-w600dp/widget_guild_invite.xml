@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?gradient_invite_splash">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/guild_invite_splash" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="centerCrop" app:placeholderImage="@drawable/drawable_default_invite_splash" app:placeholderImageScaleType="centerCrop" />
+    </FrameLayout>
+    <RelativeLayout android:layout_height="fill_parent" style="@style/UiKit.ViewGroup.RelativeLayout">
+        <androidx.core.widget.NestedScrollView android:layout_height="fill_parent" android:layout_above="@id/guild_invite_actions" style="@style/UiKit.ViewGroup.ScrollView">
+            <com.discord.widgets.guilds.invite.WidgetInviteInfo android:gravity="center" android:id="@id/guild_invite_info" style="@style/UiKit.ViewGroup.LinearLayout" />
+        </androidx.core.widget.NestedScrollView>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/guild_invite_actions" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UiKit.Copy.Anchor">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintWidth_percent="0.5">
+                <Button android:id="@id/guild_invite_cancel" android:visibility="gone" android:layout_width="wrap_content" android:minWidth="200.0dip" android:text="@string/cancel" style="@style/UiKit.Button.White" />
+                <Button android:id="@id/guild_invite_accept" android:visibility="gone" android:layout_width="fill_parent" android:maxWidth="500.0dip" android:text="@string/instant_invite_accept" style="@style/UiKit.Button" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat.Transparent">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar.Transparent" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

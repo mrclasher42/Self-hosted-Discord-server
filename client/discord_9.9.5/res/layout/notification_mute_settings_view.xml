@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/notification_mute_settings_mute_item_container" style="@style/UiKit.ViewGroup.LinearLayout">
+        <com.discord.app.AppTextView android:id="@id/notification_mute_settings_mute_item" android:text="@string/form_label_mute_server" android:drawableEnd="?ic_navigate_next" style="@style/UiKit.Settings.Item" />
+        <TextView android:id="@id/notification_mute_settings_mute_item_status" style="@style/UiKit.Settings.Item.Addition" />
+        <TextView android:id="@id/notification_mute_settings_mute_item_description" style="@style/UiKit.Settings.Item.Addition" />
+    </LinearLayout>
+    <com.discord.views.CheckedSetting android:id="@id/notification_mute_settings_check" android:layout_marginTop="@dimen/uikit_spacing_medium" app:cs_subtext="@string/form_label_mute_server_description" app:cs_text="@string/form_label_mute_server" app:cs_view_type="switchview" style="@style/UiKit.CheckedSetting.Themed" />
+</LinearLayout>

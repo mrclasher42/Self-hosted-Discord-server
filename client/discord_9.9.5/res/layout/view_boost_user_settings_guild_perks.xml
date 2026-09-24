@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?primary_000" android:layout_marginTop="@dimen/uikit_spacing_large" android:text="@string/premium_guild_guild_features_header" style="@style/UiKit.TextView.H1" />
+    <TextView android:textColor="?primary_000" android:text="@string/premium_guild_guild_feature_emoji" android:drawableStart="@drawable/ic_emoji_blue_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:textColor="?primary_000" android:text="@string/premium_guild_guild_feature_audio_quality" android:drawableStart="@drawable/ic_headset_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:textColor="?primary_000" android:text="@string/premium_guild_guild_feature_upload_size" android:drawableStart="@drawable/ic_upload_24dp" style="@style/UiKit.TextView.Perk" />
+</LinearLayout>

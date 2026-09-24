@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="?primary_000" android:paddingTop="@dimen/uikit_spacing_medium" android:paddingBottom="@dimen/uikit_spacing_medium" android:text="@string/premium_included" style="@style/UiKit.TextView.Semibold" />
+    <TextView android:text="@string/premium_chat_perks_discriminator_mobile" android:drawableStart="@drawable/ic_nitro_tag_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:text="@string/premium_chat_perks_animated_avatar_and_emoji_mobile" android:drawableStart="@drawable/ic_nitro_gifs_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:text="@string/premium_chat_perks_streaming_mobile" android:drawableStart="@drawable/ic_nitro_perk_stream_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:text="@string/premium_chat_perks_screenshare_mobile" android:drawableStart="@drawable/ic_nitro_highquality_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:text="@string/premium_chat_perks_custom_emoji_mobile" android:drawableStart="@drawable/ic_nitro_globalemojis_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:id="@id/premium_perks_upload_text" android:text="@string/premium_chat_perks_description_upload_limit" android:drawableStart="@drawable/ic_upload_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:text="@string/premium_chat_perks_rep_mobile" android:drawableStart="@drawable/ic_nitro_rep_24dp" style="@style/UiKit.TextView.Perk" />
+    <TextView android:text="@string/premium_chat_perks_premium_guild_subscription" android:drawableStart="@drawable/ic_boosted_badge_24dp" style="@style/UiKit.TextView.Perk" />
+</LinearLayout>

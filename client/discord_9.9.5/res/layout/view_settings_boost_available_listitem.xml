@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?primary_630" style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_margin="@dimen/uikit_spacing_large" style="@style/UiKit.ViewGroup">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_cloud_pattern_dark" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:background="?primary_800_circle" android:paddingTop="@dimen/uikit_spacing_large" android:paddingBottom="@dimen/uikit_spacing_large" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_large" android:src="?boosted_guild_tier_0" android:importantForAccessibility="no" />
+    </FrameLayout>
+    <RelativeLayout android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_large" style="@style/UiKit.ViewGroup.RelativeLayout">
+        <ImageView android:id="@id/boost_available_placeholder_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="?primary_700_circle" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/uikit_spacing_medium" android:layout_alignParentStart="true" />
+        <View android:background="?primary_700" android:layout_width="fill_parent" android:layout_height="@dimen/uikit_spacing_large" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/uikit_spacing_medium" android:layout_marginEnd="@dimen/uikit_spacing_xxxlarge" android:layout_toEndOf="@id/boost_available_placeholder_icon" />
+        <View android:id="@id/boost_available_placeholder_bottom_text1" android:background="?primary_700" android:layout_width="32.0dip" android:layout_height="@dimen/uikit_spacing_large" android:layout_alignBottom="@id/boost_available_placeholder_icon" android:layout_marginStart="@dimen/uikit_spacing_medium" android:layout_marginEnd="@dimen/uikit_spacing_medium" android:layout_toEndOf="@id/boost_available_placeholder_icon" />
+        <View android:background="?primary_700" android:layout_width="64.0dip" android:layout_height="@dimen/uikit_spacing_large" android:layout_alignBottom="@id/boost_available_placeholder_icon" android:layout_toEndOf="@id/boost_available_placeholder_bottom_text1" />
+    </RelativeLayout>
+    <Button android:id="@id/boost_available_select" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_large" android:text="@string/premium_guild_subscription_select_server_button" style="@style/UiKit.Button" />
+</LinearLayout>

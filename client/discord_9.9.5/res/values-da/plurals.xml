@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_feed_now_playing_header_two_known_extras">
+        <item quantity="other">%s andre</item>
+        <item quantity="one">%s andet</item>
+    </plurals>
+    <plurals name="activity_feed_recently_played_header_multiple_extra">
+        <item quantity="other">%s andre</item>
+        <item quantity="one">%s andet</item>
+    </plurals>
+    <plurals name="activity_feed_single_member_list_header_memberCount">
+        <item quantity="other">%s Personer</item>
+        <item quantity="one">%s Person</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_days_ago_time">
+        <item quantity="other">dage</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_hours_timeRemaining">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_minutes_timeRemaining">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_seconds_timeRemaining">
+        <item quantity="other">%s sekunder tilbage</item>
+        <item quantity="one">afslutter</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_hours_timeRemaining">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_minutes_timeRemaining">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_seconds_timeRemaining">
+        <item quantity="other">%s sekunder tilbage</item>
+        <item quantity="one">afslutter</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_monthly_mobile_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_monthly_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_yearly_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_yearly_mobile_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="application_store_hide_games_in_library_hidden_gamesHidden">
+        <item quantity="other">%s biblioteksspil</item>
+        <item quantity="one">%s biblioteksspil</item>
+    </plurals>
+    <plurals name="application_store_recommendation_ever_played_other_count">
+        <item quantity="other">%s folk,</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="application_store_recommendation_now_playing_other_count">
+        <item quantity="other">%s personer,</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="application_store_recommendation_recently_played_other_count">
+        <item quantity="other">%s folk,</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="bans_header_bans">
+        <item quantity="other">%s udelukkelser</item>
+        <item quantity="zero">Ingen udelukkelser</item>
+        <item quantity="one">1 udelukkelse</item>
+    </plurals>
+    <plurals name="billing_refund_purchase_date_daysSincePurchase">
+        <item quantity="other">%s dage siden</item>
+        <item quantity="zero">I dag</item>
+        <item quantity="one">%s dag siden</item>
+    </plurals>
+    <plurals name="blocked_messages_count">
+        <item quantity="other">%s Blokerede Beskeder</item>
+        <item quantity="one">1 Blokeret Besked</item>
+    </plurals>
+    <plurals name="channel_slowmode_cooldown_seconds">
+        <item quantity="other">%s sekunder</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">1 time</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_seconds">
+        <item quantity="other">%s sekunder</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_seconds">
+        <item quantity="other">%s sekunder</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_seconds">
+        <item quantity="other">%s sekunder</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_hours_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_minutes_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="custom_status_hours_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="custom_status_minutes_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="duration_days_days">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals name="duration_hours_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">1 time</item>
+    </plurals>
+    <plurals name="duration_hours_short_hours">
+        <item quantity="other">%st</item>
+        <item quantity="one">1t</item>
+    </plurals>
+    <plurals name="duration_mins_mins">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="duration_minutes_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="duration_seconds_seconds">
+        <item quantity="other">%s sekunder</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+    <plurals name="emoji_slots_available_count">
+        <item quantity="other">%s pladser</item>
+        <item quantity="zero">ingen pladser</item>
+        <item quantity="one">%s plads</item>
+    </plurals>
+    <plurals name="form_help_last_seen_days">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals name="form_help_last_seen_members">
+        <item quantity="zero">0 medlemmer</item>
+        <item quantity="one">1 medlem</item>
+    </plurals>
+    <plurals name="game_feed_user_played_days_ago_time">
+        <item quantity="other">dage</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="game_feed_user_played_hours_ago_time">
+        <item quantity="other">timer</item>
+    </plurals>
+    <plurals name="game_feed_user_played_minutes_ago_time">
+        <item quantity="other">minutter</item>
+        <item quantity="one">minut</item>
+    </plurals>
+    <plurals name="game_feed_user_played_months_ago_time">
+        <item quantity="other">måneder</item>
+        <item quantity="one">måned</item>
+    </plurals>
+    <plurals name="game_feed_user_played_weeks_ago_time">
+        <item quantity="other">uger</item>
+        <item quantity="one">uge</item>
+    </plurals>
+    <plurals name="game_feed_user_played_years_ago_time">
+        <item quantity="other">år</item>
+        <item quantity="one">år</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_days_time">
+        <item quantity="other">dage</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_hours_time">
+        <item quantity="other">timer</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_minutes_time">
+        <item quantity="other">minutter</item>
+        <item quantity="one">minut</item>
+    </plurals>
+    <plurals name="game_library_last_played_days_time">
+        <item quantity="other">%s dage siden</item>
+        <item quantity="one">i går</item>
+    </plurals>
+    <plurals name="game_library_last_played_hours_time">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="game_library_last_played_minutes_time">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="game_library_last_played_months_time">
+        <item quantity="other">%s måneder siden</item>
+        <item quantity="one">sidste måned</item>
+    </plurals>
+    <plurals name="game_library_last_played_weeks_time">
+        <item quantity="other">%s uger siden</item>
+        <item quantity="one">sidste uge</item>
+    </plurals>
+    <plurals name="game_library_last_played_years_time">
+        <item quantity="other">%s år siden</item>
+        <item quantity="one">sidste år</item>
+    </plurals>
+    <plurals name="game_library_time_played_hours_time">
+        <item quantity="other">timer</item>
+    </plurals>
+    <plurals name="game_library_time_played_minutes_time">
+        <item quantity="other">minutter</item>
+        <item quantity="one">minut</item>
+    </plurals>
+    <plurals name="game_library_time_played_seconds_time">
+        <item quantity="other">sekunder</item>
+        <item quantity="one">sekund</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_hours_timeRemaining">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">1 time</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_minutes_timeRemaining">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_seconds_timeRemaining">
+        <item quantity="other">%s sekunder tilbage</item>
+        <item quantity="one">afslutter</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_hours_timeRemaining">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">1 time</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_minutes_timeRemaining">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_seconds_timeRemaining">
+        <item quantity="other">%s sekunder tilbage</item>
+        <item quantity="one">afslutter</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_monthly_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_yearly_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_monthly_confirm_intervalCount">
+        <item quantity="other">%småneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_yearly_confirm_intervalCount">
+        <item quantity="other">%sår</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_monthly_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_yearly_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_monthly_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_yearly_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_months_time">
+        <item quantity="other">måneder</item>
+        <item quantity="one">måned</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_years_time">
+        <item quantity="other">år</item>
+        <item quantity="one">år</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_months_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_years_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_months_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_years_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="gift_embed_expiration_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="gift_inventory_copies_copies">
+        <item quantity="other">%s kopier</item>
+        <item quantity="one">%s kopi</item>
+    </plurals>
+    <plurals name="gift_inventory_expires_in_mobile_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_months_intervalCount">
+        <item quantity="other">%s måneder</item>
+        <item quantity="one">%s måned</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_years_intervalCount">
+        <item quantity="other">%s år</item>
+        <item quantity="one">%s år</item>
+    </plurals>
+    <plurals name="guild_discovery_header_search_results_count">
+        <item quantity="other">%s resultater</item>
+        <item quantity="one">1 resultat</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_denied_count">
+        <item quantity="other">tilladelser</item>
+        <item quantity="one">tilladelse</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_granted_count">
+        <item quantity="other">tilladelser</item>
+        <item quantity="one">en tilladelse</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_change_newValue">
+        <item quantity="other">Satte langsom tilstand til **!!%s!! sekunder**</item>
+        <item quantity="zero">Deaktiverede langsom tilstand</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_create_newValue">
+        <item quantity="other">Satte langsom tilstand til **!!%s!! sekunder**</item>
+        <item quantity="zero">Satte langsom tilstand til deaktiveret</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_count">
+        <item quantity="other">**!!%s!! medlemmer**</item>
+        <item quantity="one">**et medlem**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_delete_days_newValue">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">en dag</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_add_count">
+        <item quantity="other">nogle roller</item>
+        <item quantity="one">en rolle</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_remove_count">
+        <item quantity="other">nogle roller</item>
+        <item quantity="one">en rolle</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_message_delete_count">
+        <item quantity="other">**!!%s!! beskeder**</item>
+        <item quantity="one">**en besked**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_denied_count">
+        <item quantity="other">tilladelser</item>
+        <item quantity="one">tilladelse</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_granted_count">
+        <item quantity="other">tilladelser</item>
+        <item quantity="one">tilladelse</item>
+    </plurals>
+    <plurals name="guild_settings_overview_boost_unlock_boosts">
+        <item quantity="other">%s boost</item>
+        <item quantity="one">%s boost</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_close_hint_numLeft">
+        <item quantity="other">%s flere boost</item>
+        <item quantity="one">%s mere boost</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_count_subscribers_count">
+        <item quantity="other">%s ekstremt seje personer har</item>
+        <item quantity="one">%s ekstremt sej person har</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_tier_requirement_required">
+        <item quantity="other">%s Boost</item>
+        <item quantity="one">%s Boost</item>
+    </plurals>
+    <plurals name="guild_subscription_purchase_modal_activated_description_guildSubscriptionQuantity">
+        <item quantity="other">%s gange</item>
+        <item quantity="one">%s gang</item>
+    </plurals>
+    <plurals name="instant_invite_guild_members_total_count">
+        <item quantity="other">%s medlemmer</item>
+        <item quantity="one">1 medlem</item>
+    </plurals>
+    <plurals name="invite_embed_num_open_slots_number">
+        <item quantity="other">pladser</item>
+        <item quantity="one">plads</item>
+    </plurals>
+    <plurals name="invite_expires_days_or_uses_numUses">
+        <item quantity="other">%s anvendelser</item>
+        <item quantity="one">%s anvendelse</item>
+    </plurals>
+    <plurals name="invite_expires_hours_numHours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numHours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numUses">
+        <item quantity="other">%s anvendelser</item>
+        <item quantity="one">%s anvendelse</item>
+    </plurals>
+    <plurals name="invite_expires_minutes_or_uses_numUses">
+        <item quantity="other">%s anvendelser</item>
+        <item quantity="one">%s anvendelse</item>
+    </plurals>
+    <plurals name="invite_expires_uses_numUses">
+        <item quantity="other">%s anvendelser</item>
+        <item quantity="one">%s anvendelse</item>
+    </plurals>
+    <plurals name="last_seen_days">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals name="live_viewers_viewers">
+        <item quantity="other">seere</item>
+        <item quantity="one">seer</item>
+    </plurals>
+    <plurals name="max_uses_description_mobile_maxUses">
+        <item quantity="other">%s anvendelser</item>
+        <item quantity="zero">ubegrænset anvendelse</item>
+        <item quantity="one">1 anvendelse</item>
+    </plurals>
+    <plurals name="max_uses_maxUses">
+        <item quantity="other">%s anvendelser</item>
+        <item quantity="zero">Ingen begrænsning</item>
+        <item quantity="one">1 anvendelse</item>
+    </plurals>
+    <plurals name="members_header_members">
+        <item quantity="other">%s medlemmer</item>
+        <item quantity="zero">Ingen medlemmer</item>
+        <item quantity="one">1 medlem</item>
+    </plurals>
+    <plurals name="n_days_days">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">1 dag</item>
+    </plurals>
+    <plurals name="new_messages_count">
+        <item quantity="other">%s nye beskeder</item>
+        <item quantity="one">1 ny besked</item>
+    </plurals>
+    <plurals name="new_messages_with_date_count">
+        <item quantity="other">%s nye beskeder</item>
+        <item quantity="one">1 ny besked</item>
+    </plurals>
+    <plurals name="notice_premium_grandfathered_ending_numDays">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">èn dag</item>
+    </plurals>
+    <plurals name="num_channels_num">
+        <item quantity="other">%s kanaler</item>
+        <item quantity="one">%s kanal</item>
+    </plurals>
+    <plurals name="num_members_subscribers">
+        <item quantity="other">**%s** medlemmer</item>
+        <item quantity="zero">**0** medlemmer</item>
+        <item quantity="one">**1** medlem</item>
+    </plurals>
+    <plurals name="num_subscribers_subscribers">
+        <item quantity="other">**%s** abonnenter</item>
+        <item quantity="zero">**0** abonnenter</item>
+        <item quantity="one">**1** abonnent</item>
+    </plurals>
+    <plurals name="num_users_num">
+        <item quantity="other">%s brugere</item>
+        <item quantity="one">1 bruger</item>
+    </plurals>
+    <plurals name="only_you_can_see_and_delete_these_count">
+        <item quantity="other">disse beskeder</item>
+        <item quantity="one">denne besked</item>
+    </plurals>
+    <plurals name="partial_outage_a11y_count">
+        <item quantity="other">%s servere er utilgængelige pga. en midlertidig strømafbrydelse.</item>
+        <item quantity="one">1 server er utilgængelig pga. en midlertidig strømafbrydelse.</item>
+    </plurals>
+    <plurals name="partial_outage_count">
+        <item quantity="other">**%s** andre servere er utilgængelige pga. en midlertidig strømafbrydelse.</item>
+        <item quantity="one">**1** anden server er utilgængelig grundet en midlertidig strømafbrydelse.</item>
+    </plurals>
+    <plurals name="premium_chat_perks_description_premium_guild_included_numFreeGuildSubscriptions">
+        <item quantity="other">%s Boosts</item>
+        <item quantity="one">%s Boost</item>
+    </plurals>
+    <plurals name="premium_guild_num_month_guild_subscriptions_num">
+        <item quantity="other">Serverboosts</item>
+        <item quantity="one">Serverboost</item>
+    </plurals>
+    <plurals name="premium_guild_num_year_guild_subscriptions_num">
+        <item quantity="other">Serverboosts</item>
+        <item quantity="one">Serverboost</item>
+    </plurals>
+    <plurals name="premium_guild_perks_modal_header_user_subscription_count_numSubscriptions">
+        <item quantity="other">%s gange!</item>
+        <item quantity="one">%s gang</item>
+    </plurals>
+    <plurals name="premium_guild_settings_members_subscribed_needed_number">
+        <item quantity="other">%s flere boost</item>
+        <item quantity="one">%s mere boost</item>
+    </plurals>
+    <plurals name="premium_guild_settings_x_of_y_subscriptions_numRequired">
+        <item quantity="other">%s Boost</item>
+        <item quantity="one">%s Boost</item>
+    </plurals>
+    <plurals name="premium_guild_subscribe_confirm_cooldown_warning_days">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_available_count_num">
+        <item quantity="other">%s server boost</item>
+        <item quantity="one">%s server boost</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_days">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_minutes_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_days">
+        <item quantity="other">%s dage</item>
+        <item quantity="one">%s dag</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_hours">
+        <item quantity="other">%s timer</item>
+        <item quantity="one">%s time</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_minutes_minutes">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">%s minut</item>
+    </plurals>
+    <plurals name="publish_followed_news_fail_body_retryAfter">
+        <item quantity="other">%s minutter</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="reaction_tooltip_1_n_n">
+        <item quantity="other">%s andre</item>
+        <item quantity="one">1 anden</item>
+    </plurals>
+    <plurals name="reaction_tooltip_2_n_n">
+        <item quantity="other">%s andre</item>
+        <item quantity="one">1 anden</item>
+    </plurals>
+    <plurals name="reaction_tooltip_3_n_n">
+        <item quantity="other">%s andre</item>
+        <item quantity="one">1 anden</item>
+    </plurals>
+    <plurals name="reaction_tooltip_n_n">
+        <item quantity="other">%s folk</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="roles_list_numRoles">
+        <item quantity="other">Roller</item>
+        <item quantity="zero">Ingen Roller</item>
+        <item quantity="one">Rolle</item>
+    </plurals>
+    <plurals name="search_hide_blocked_messages_count">
+        <item quantity="other">%s beskeder</item>
+        <item quantity="one">%s besked</item>
+    </plurals>
+    <plurals name="search_num_results_blocked_not_shown_count">
+        <item quantity="other">%s resultater</item>
+        <item quantity="one">%s resultat</item>
+    </plurals>
+    <plurals name="search_still_indexing_hint_count">
+        <item quantity="other">%s resultater</item>
+        <item quantity="zero">Ingen resultater</item>
+        <item quantity="one">%s resultat</item>
+    </plurals>
+    <plurals name="spotify_listen_along_title_host_count">
+        <item quantity="other">Lyttere</item>
+        <item quantity="one">Lytter</item>
+    </plurals>
+    <plurals name="total_results_count">
+        <item quantity="other">%s resultater</item>
+        <item quantity="zero">Ingen resultater</item>
+        <item quantity="one">%s resultat</item>
+    </plurals>
+    <plurals name="uploading_files_count">
+        <item quantity="other">Uploader %s filer</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_hours">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_minutes">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_seconds">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_hours">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_minutes">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_seconds">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_days_time">
+        <item quantity="other">dage</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_hours_time">
+        <item quantity="other">timer</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_minutes_time">
+        <item quantity="other">minutter</item>
+        <item quantity="one">minut</item>
+    </plurals>
+    <plurals name="user_profile_mutual_friends_count">
+        <item quantity="other">%s Gensidige venner</item>
+        <item quantity="zero">0 Gensidige venner</item>
+        <item quantity="one">1 Gensidige ven</item>
+    </plurals>
+    <plurals name="user_profile_mutual_guilds_count">
+        <item quantity="other">%s Gensidige servere</item>
+        <item quantity="zero">0 Gensidige servere</item>
+        <item quantity="one">1 Gensidige server</item>
+    </plurals>
+    <plurals name="voice_call_member_list_title_count">
+        <item quantity="other">%s Folk</item>
+        <item quantity="one">%s Person</item>
+    </plurals>
+</resources>

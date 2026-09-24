@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_feed_now_playing_header_two_known_extras">
+        <item quantity="other">%s autres</item>
+        <item quantity="one">%s autre</item>
+    </plurals>
+    <plurals name="activity_feed_recently_played_header_multiple_extra">
+        <item quantity="other">%s autres</item>
+        <item quantity="one">%s autre</item>
+    </plurals>
+    <plurals name="activity_feed_single_member_list_header_memberCount">
+        <item quantity="other">%s Personnes</item>
+        <item quantity="one">%s Personne</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_days_ago_time">
+        <item quantity="other">jours</item>
+        <item quantity="one">jour</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_hours_ago_time">
+        <item quantity="other">heures</item>
+        <item quantity="one">heure</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_minutes_ago_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_seconds_ago_time">
+        <item quantity="other">secondes</item>
+        <item quantity="one">seconde</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_hours_timeRemaining">
+        <item quantity="other">%s heures restantes</item>
+        <item quantity="one">%s heure restante</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_minutes_timeRemaining">
+        <item quantity="other">%s minutes restantes</item>
+        <item quantity="one">%s minute restante</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_seconds_timeRemaining">
+        <item quantity="other">%s secondes restantes</item>
+        <item quantity="one">peaufinage</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_hours_timeRemaining">
+        <item quantity="other">%s heures restantes</item>
+        <item quantity="one">%s heure restante</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_minutes_timeRemaining">
+        <item quantity="other">%s minutes restantes</item>
+        <item quantity="one">%s minute restante</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_seconds_timeRemaining">
+        <item quantity="other">%s secondes restantes</item>
+        <item quantity="one">peaufinage</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_monthly_mobile_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_monthly_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_yearly_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_yearly_mobile_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="application_store_hide_games_in_library_hidden_gamesHidden">
+        <item quantity="other">%s jeux masqués</item>
+        <item quantity="one">%s jeu masqué</item>
+    </plurals>
+    <plurals name="application_store_recommendation_ever_played_other_count">
+        <item quantity="other">%s personnes que tu connais ont</item>
+        <item quantity="one">1 personne que tu connais a</item>
+    </plurals>
+    <plurals name="application_store_recommendation_now_playing_other_count">
+        <item quantity="other">%s personnes que tu connais sont</item>
+        <item quantity="one">1 personne que tu connais est</item>
+    </plurals>
+    <plurals name="application_store_recommendation_recently_played_other_count">
+        <item quantity="other">%s personnes que tu connais ont</item>
+        <item quantity="one">1 personne que tu connais a</item>
+    </plurals>
+    <plurals name="bans_header_bans">
+        <item quantity="other">%s bannissements</item>
+        <item quantity="zero">Aucun bannissement</item>
+        <item quantity="one">1 bannissement</item>
+    </plurals>
+    <plurals name="billing_refund_purchase_date_daysSincePurchase">
+        <item quantity="other">Il y a %s jours</item>
+        <item quantity="zero">"Aujourd'hui"</item>
+        <item quantity="one">Il y a %s jour</item>
+    </plurals>
+    <plurals name="blocked_messages_count">
+        <item quantity="other">%s messages bloqués</item>
+        <item quantity="one">1 message bloqué</item>
+    </plurals>
+    <plurals name="channel_slowmode_cooldown_seconds">
+        <item quantity="other">%s secondes</item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">1 heure</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_seconds">
+        <item quantity="other">%s secondes</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_seconds">
+        <item quantity="other">%s secondes</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_seconds">
+        <item quantity="other">%s secondes</item>
+        <item quantity="one">secondes</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_hours_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_minutes_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="custom_status_hours_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="custom_status_minutes_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="duration_days_days">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">1 jour</item>
+    </plurals>
+    <plurals name="duration_hours_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">1 heure</item>
+    </plurals>
+    <plurals name="duration_hours_short_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">1 h</item>
+    </plurals>
+    <plurals name="duration_mins_mins">
+        <item quantity="other">%s min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="duration_minutes_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="duration_minutes_short_minutes">
+        <item quantity="other">%s m</item>
+        <item quantity="one">1 m</item>
+    </plurals>
+    <plurals name="duration_seconds_seconds">
+        <item quantity="other">%s secondes</item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="duration_seconds_short_seconds">
+        <item quantity="other">%s s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="emoji_slots_available_count">
+        <item quantity="other">%s emplacements disponibles</item>
+        <item quantity="zero">Aucun emplacement disponible</item>
+        <item quantity="one">%s emplacement disponible</item>
+    </plurals>
+    <plurals name="form_help_last_seen_days">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">1 jour</item>
+    </plurals>
+    <plurals name="form_help_last_seen_members">
+        <item quantity="other">"%s membres ne s'étant pas connectés"</item>
+        <item quantity="one">"1 membre ne s'étant pas connecté"</item>
+    </plurals>
+    <plurals name="game_feed_user_played_days_ago_time">
+        <item quantity="other">jours</item>
+        <item quantity="one">jour</item>
+    </plurals>
+    <plurals name="game_feed_user_played_hours_ago_time">
+        <item quantity="other">heures</item>
+        <item quantity="one">heure</item>
+    </plurals>
+    <plurals name="game_feed_user_played_minutes_ago_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="game_feed_user_played_months_ago_time">
+        <item quantity="other"> mois</item>
+        <item quantity="one"> mois</item>
+    </plurals>
+    <plurals name="game_feed_user_played_weeks_ago_time">
+        <item quantity="other"> semaines</item>
+        <item quantity="one"> semaine</item>
+    </plurals>
+    <plurals name="game_feed_user_played_years_ago_time">
+        <item quantity="other"> ans</item>
+        <item quantity="one"> an</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_days_time">
+        <item quantity="other">jours</item>
+        <item quantity="one">jour</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_hours_time">
+        <item quantity="other">heures</item>
+        <item quantity="one">heure</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_minutes_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="game_library_last_played_days_time">
+        <item quantity="other">il y a %s jours</item>
+        <item quantity="one">hier</item>
+    </plurals>
+    <plurals name="game_library_last_played_hours_time">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="game_library_last_played_minutes_time">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="game_library_last_played_months_time">
+        <item quantity="other">il y a %s mois</item>
+        <item quantity="one">le mois dernier</item>
+    </plurals>
+    <plurals name="game_library_last_played_weeks_time">
+        <item quantity="other">il y a %s semaines</item>
+        <item quantity="one">la semaine dernière</item>
+    </plurals>
+    <plurals name="game_library_last_played_years_time">
+        <item quantity="other">il y a %s ans</item>
+        <item quantity="one">"l'année dernière"</item>
+    </plurals>
+    <plurals name="game_library_time_played_hours_time">
+        <item quantity="other">heures</item>
+        <item quantity="one">heure</item>
+    </plurals>
+    <plurals name="game_library_time_played_minutes_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="game_library_time_played_seconds_time">
+        <item quantity="other">secondes</item>
+        <item quantity="one">seconde</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_hours_timeRemaining">
+        <item quantity="other">%s heures restantes</item>
+        <item quantity="one">1 heure restante</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_minutes_timeRemaining">
+        <item quantity="other">%s minutes restantes</item>
+        <item quantity="one">1 minute restante</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_seconds_timeRemaining">
+        <item quantity="other">%s secondes restantes</item>
+        <item quantity="one">peaufinage</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_hours_timeRemaining">
+        <item quantity="other">%s heures restantes</item>
+        <item quantity="one">1 heure restante</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_minutes_timeRemaining">
+        <item quantity="other">%s minutes restantes</item>
+        <item quantity="one">1 minute restante</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_seconds_timeRemaining">
+        <item quantity="other">%s secondes restantes</item>
+        <item quantity="one">peaufinage</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_monthly_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_yearly_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_monthly_confirm_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_yearly_confirm_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_monthly_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_yearly_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_monthly_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_yearly_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_months_time">
+        <item quantity="other">mois</item>
+        <item quantity="one">mois</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_years_time">
+        <item quantity="other">ans</item>
+        <item quantity="one">an</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_months_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_years_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_months_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_years_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="gift_embed_expiration_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="gift_inventory_copies_copies">
+        <item quantity="other">%s exemplaires</item>
+        <item quantity="one">%s exemplaire</item>
+    </plurals>
+    <plurals name="gift_inventory_expires_in_mobile_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_months_intervalCount">
+        <item quantity="other">%s mois</item>
+        <item quantity="one">%s mois</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_years_intervalCount">
+        <item quantity="other">%s ans</item>
+        <item quantity="one">%s an</item>
+    </plurals>
+    <plurals name="guild_discovery_header_search_results_count">
+        <item quantity="other">%s résultats</item>
+        <item quantity="one">1 résultat</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_denied_count">
+        <item quantity="other">des permissions</item>
+        <item quantity="one">une permission</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_granted_count">
+        <item quantity="other">des permissions</item>
+        <item quantity="one">une permission</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_change_newValue">
+        <item quantity="other">A fixé le mode lent à **!!%s!! secondes**</item>
+        <item quantity="zero">A désactivé le mode lent</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_create_newValue">
+        <item quantity="other">A fixé le mode lent à **!!%s!! secondes**</item>
+        <item quantity="zero">A désactivé le mode lent</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_count">
+        <item quantity="other">**!!%s!! membres**</item>
+        <item quantity="one">**un membre**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_delete_days_newValue">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">un jour</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_add_count">
+        <item quantity="other">plusieurs rôles</item>
+        <item quantity="one">un rôle</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_remove_count">
+        <item quantity="other">plusieurs rôles</item>
+        <item quantity="one">un rôle</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_message_delete_count">
+        <item quantity="other">**!!%s!! messages**</item>
+        <item quantity="one">**un message**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_denied_count">
+        <item quantity="other">des permissions</item>
+        <item quantity="one">une permission</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_granted_count">
+        <item quantity="other">des permissions</item>
+        <item quantity="one">une permission</item>
+    </plurals>
+    <plurals name="guild_settings_overview_boost_unlock_boosts">
+        <item quantity="other">%s boosts</item>
+        <item quantity="one">%s boost</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_close_hint_numLeft">
+        <item quantity="other">%s boosts supplémentaires</item>
+        <item quantity="one">%s boost supplémentaire</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_count_subscribers_count">
+        <item quantity="other">%s personnes ultra cools ont</item>
+        <item quantity="one">%s personne ultra cool a</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_tier_requirement_required">
+        <item quantity="other">%s boosts</item>
+        <item quantity="one">%s boost</item>
+    </plurals>
+    <plurals name="guild_subscription_purchase_modal_activated_description_guildSubscriptionQuantity">
+        <item quantity="other">%s fois</item>
+        <item quantity="one">%s fois</item>
+    </plurals>
+    <plurals name="instant_invite_guild_members_total_count">
+        <item quantity="other">%s membres</item>
+        <item quantity="one">1 membre</item>
+    </plurals>
+    <plurals name="invite_embed_num_open_slots_number">
+        <item quantity="other">places disponibles</item>
+        <item quantity="one">place disponible</item>
+    </plurals>
+    <plurals name="invite_expires_days_or_uses_numUses">
+        <item quantity="other">%s utilisations</item>
+        <item quantity="one">%s utilisation</item>
+    </plurals>
+    <plurals name="invite_expires_hours_numHours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numHours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numUses">
+        <item quantity="other">%s utilisations</item>
+        <item quantity="one">%s utilisation</item>
+    </plurals>
+    <plurals name="invite_expires_minutes_or_uses_numUses">
+        <item quantity="other">%s utilisations</item>
+        <item quantity="one">%s utilisation</item>
+    </plurals>
+    <plurals name="invite_expires_uses_numUses">
+        <item quantity="other">%s utilisations</item>
+        <item quantity="one">%s utilisation</item>
+    </plurals>
+    <plurals name="last_seen_days">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">1 jour</item>
+    </plurals>
+    <plurals name="live_viewers_viewers">
+        <item quantity="other">spectateurs</item>
+        <item quantity="one">spectateur</item>
+    </plurals>
+    <plurals name="max_uses_description_mobile_maxUses">
+        <item quantity="other">%s utilisations</item>
+        <item quantity="zero">utilisations illimitées</item>
+        <item quantity="one">1 utilisation</item>
+    </plurals>
+    <plurals name="max_uses_maxUses">
+        <item quantity="other">%s utilisations</item>
+        <item quantity="zero">Illimité</item>
+        <item quantity="one">1 utilisation</item>
+    </plurals>
+    <plurals name="members_header_members">
+        <item quantity="other">%s membres</item>
+        <item quantity="zero">Aucun membre</item>
+        <item quantity="one">1 membre</item>
+    </plurals>
+    <plurals name="n_days_days">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">1 jour</item>
+    </plurals>
+    <plurals name="new_messages_count">
+        <item quantity="other">%s nouveaux messages</item>
+        <item quantity="one">1 nouveau message</item>
+    </plurals>
+    <plurals name="new_messages_with_date_count">
+        <item quantity="other">%s nouveaux messages</item>
+        <item quantity="one">1 nouveau message</item>
+    </plurals>
+    <plurals name="notice_premium_grandfathered_ending_numDays">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">un jour</item>
+    </plurals>
+    <plurals name="num_channels_num">
+        <item quantity="other">%s salons</item>
+        <item quantity="one">%s salon</item>
+    </plurals>
+    <plurals name="num_members_subscribers">
+        <item quantity="other">**%s** membres</item>
+        <item quantity="zero">**0** membre</item>
+        <item quantity="one">**1** membre</item>
+    </plurals>
+    <plurals name="num_subscribers_subscribers">
+        <item quantity="other">**%s** abonnés</item>
+        <item quantity="zero">**0** abonné</item>
+        <item quantity="one">**1** abonné</item>
+    </plurals>
+    <plurals name="num_users_num">
+        <item quantity="other">%s utilisateurs</item>
+        <item quantity="one">1 utilisateur</item>
+    </plurals>
+    <plurals name="only_you_can_see_and_delete_these_count">
+        <item quantity="other">ces messages</item>
+        <item quantity="one">ce message</item>
+    </plurals>
+    <plurals name="partial_outage_a11y_count">
+        <item quantity="other">"%s serveurs sont indisponibles à cause d'une panne temporaire."</item>
+        <item quantity="one">"1 serveur est indisponible à cause d'une panne temporaire."</item>
+    </plurals>
+    <plurals name="partial_outage_count">
+        <item quantity="other">"**%s** autres serveurs sont indisponibles à cause d'une panne temporaire."</item>
+        <item quantity="one">"**1** autre serveur est indisponible à cause d'une panne temporaire."</item>
+    </plurals>
+    <plurals name="premium_chat_perks_description_premium_guild_included_numFreeGuildSubscriptions">
+        <item quantity="other">%s boosts</item>
+        <item quantity="one">%s boost</item>
+    </plurals>
+    <plurals name="premium_guild_num_month_guild_subscriptions_num">
+        <item quantity="other">boosts de serveur mensuels</item>
+        <item quantity="one">boost de serveur mensuel</item>
+    </plurals>
+    <plurals name="premium_guild_num_year_guild_subscriptions_num">
+        <item quantity="other">boosts de serveur annuels</item>
+        <item quantity="one">boost de serveur annuel</item>
+    </plurals>
+    <plurals name="premium_guild_perks_modal_header_user_subscription_count_numSubscriptions">
+        <item quantity="other">%s fois !</item>
+        <item quantity="one">%s fois !</item>
+    </plurals>
+    <plurals name="premium_guild_settings_members_subscribed_needed_number">
+        <item quantity="other">%s boosts supplémentaires</item>
+        <item quantity="one">%s boost supplémentaire</item>
+    </plurals>
+    <plurals name="premium_guild_settings_x_of_y_subscriptions_numRequired">
+        <item quantity="other">%s boosts</item>
+        <item quantity="one">%s boost</item>
+    </plurals>
+    <plurals name="premium_guild_subscribe_confirm_cooldown_warning_days">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">%s jour</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_available_count_num">
+        <item quantity="other">%s boosts de serveur</item>
+        <item quantity="one">%s boost de serveur</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_days">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">%s jour</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_minutes_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_days">
+        <item quantity="other">%s jours</item>
+        <item quantity="one">%s jour</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_hours">
+        <item quantity="other">%s heures</item>
+        <item quantity="one">%s heure</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_minutes_minutes">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">%s minute</item>
+    </plurals>
+    <plurals name="publish_followed_news_fail_body_retryAfter">
+        <item quantity="other">%s minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="reaction_tooltip_1_n_n">
+        <item quantity="other">%s autres personnes</item>
+        <item quantity="one">une autre personne</item>
+    </plurals>
+    <plurals name="reaction_tooltip_2_n_n">
+        <item quantity="other">%s autres personnes</item>
+        <item quantity="one">une autre personne</item>
+    </plurals>
+    <plurals name="reaction_tooltip_3_n_n">
+        <item quantity="other">%s autres personnes</item>
+        <item quantity="one">une autre personne</item>
+    </plurals>
+    <plurals name="reaction_tooltip_n_n">
+        <item quantity="other">%s personnes ont</item>
+        <item quantity="one">1 personne a</item>
+    </plurals>
+    <plurals name="roles_list_numRoles">
+        <item quantity="other">Rôles</item>
+        <item quantity="zero">Aucun rôle</item>
+        <item quantity="one">Rôle</item>
+    </plurals>
+    <plurals name="search_hide_blocked_messages_count">
+        <item quantity="other">%s messages</item>
+        <item quantity="one">%s message</item>
+    </plurals>
+    <plurals name="search_num_results_blocked_not_shown_count">
+        <item quantity="other">%s résultats</item>
+        <item quantity="one">%s résultat</item>
+    </plurals>
+    <plurals name="search_still_indexing_hint_count">
+        <item quantity="other">%s résultats indexés</item>
+        <item quantity="zero">Aucun résultat indexé</item>
+        <item quantity="one">%s résultat indexé</item>
+    </plurals>
+    <plurals name="spotify_listen_along_title_host_count">
+        <item quantity="other">auditeurs</item>
+        <item quantity="one">auditeur</item>
+    </plurals>
+    <plurals name="total_results_count">
+        <item quantity="other">%s résultats</item>
+        <item quantity="zero">Pas de résultat</item>
+        <item quantity="one">%s résultat</item>
+    </plurals>
+    <plurals name="uploading_files_count">
+        <item quantity="other">Upload de %s fichiers</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_hours">
+        <item quantity="other">%s h </item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_minutes">
+        <item quantity="other">%s min </item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_seconds">
+        <item quantity="other">%s s</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_hours">
+        <item quantity="other">%s h </item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_minutes">
+        <item quantity="other">%s min </item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_seconds">
+        <item quantity="other">%s s</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_days_time">
+        <item quantity="other">jours</item>
+        <item quantity="one">jour</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_hours_time">
+        <item quantity="other">heures</item>
+        <item quantity="one">heure</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_minutes_time">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="user_profile_mutual_friends_count">
+        <item quantity="other">%s amis en commun</item>
+        <item quantity="zero">0 ami en commun</item>
+        <item quantity="one">1 ami en commun</item>
+    </plurals>
+    <plurals name="user_profile_mutual_guilds_count">
+        <item quantity="other">%s serveurs en commun</item>
+        <item quantity="zero">0 serveur en commun</item>
+        <item quantity="one">1 serveur en commun</item>
+    </plurals>
+    <plurals name="voice_call_member_list_title_count">
+        <item quantity="other">%s personnes</item>
+        <item quantity="one">%s personne</item>
+    </plurals>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="?primary_630" style="@style/AppTheme.AppBarLayout">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView style="@style/UiKit.ViewGroup.NestedScrollView.AppBarScrollingViewBehavior">
+        <LinearLayout android:paddingBottom="@dimen/uikit_spacing_xxxlarge" android:focusableInTouchMode="true" style="@style/UiKit.ViewGroup.LinearLayout">
+            <LinearLayout android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uikit_spacing_xlarge" android:layout_marginBottom="@dimen/uikit_spacing_xlarge" android:layout_marginEnd="@dimen/uikit_spacing_medium" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+                <FrameLayout android:id="@id/set_custom_status_emoji_button" android:padding="@dimen/uikit_spacing_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/uikit_spacing_medium">
+                    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/set_custom_status_emoji" android:layout_width="@dimen/custom_status_emoji_preview_size" android:layout_height="@dimen/custom_status_emoji_preview_size" app:actualImageScaleType="fitCenter" />
+                </FrameLayout>
+                <com.google.android.material.textfield.TextInputLayout android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/UiKit.TextInputLayout">
+                    <androidx.appcompat.widget.AppCompatEditText android:id="@id/set_custom_status_text" android:hint="@string/custom_status_set_custom_status" android:maxLength="128" android:inputType="textAutoComplete|textAutoCorrect|textCapSentences" style="@style/UiKit.Form.Field.EditText.SingleLine">
+                        <requestFocus />
+                    </androidx.appcompat.widget.AppCompatEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+                <ImageView android:id="@id/set_custom_status_clear" android:padding="@dimen/uikit_spacing_medium" android:visibility="gone" android:src="?theme_search_clear_icon" android:contentDescription="@string/reset" android:layout_marginStart="@dimen/uikit_spacing_large" style="@style/UiKit.ImageView.Clickable" />
+            </LinearLayout>
+            <RadioGroup android:id="@id/set_custom_status_expiration" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.discord.views.CheckedSetting android:id="@id/set_custom_status_expiration_never" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cs_text="@string/custom_status_dont_clear" app:cs_view_type="radio" style="@style/UiKit.CheckedSetting.Themed" />
+                <com.discord.views.CheckedSetting android:id="@id/set_custom_status_expiration_30_minutes" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cs_text="@string/custom_status_clear_in_minutes" app:cs_view_type="radio" style="@style/UiKit.CheckedSetting.Themed" />
+                <com.discord.views.CheckedSetting android:id="@id/set_custom_status_expiration_4_hours" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cs_text="@string/custom_status_clear_in_hours" app:cs_view_type="radio" style="@style/UiKit.CheckedSetting.Themed" />
+                <com.discord.views.CheckedSetting android:id="@id/set_custom_status_expiration_tomorrow" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cs_text="@string/custom_status_clear_tomorrow" app:cs_view_type="radio" style="@style/UiKit.CheckedSetting.Themed" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/set_custom_status_save" android:visibility="visible" style="@style/Settings.FloatingActionButton.Save" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

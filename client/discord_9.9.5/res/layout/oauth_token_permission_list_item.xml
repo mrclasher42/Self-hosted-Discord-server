@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:paddingTop="@dimen/uikit_spacing_small" android:paddingBottom="@dimen/uikit_spacing_small" android:drawablePadding="@dimen/uikit_spacing_medium" android:drawableStart="@drawable/ic_check_circle_green_24dp" style="@style/UiKit.TextView"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

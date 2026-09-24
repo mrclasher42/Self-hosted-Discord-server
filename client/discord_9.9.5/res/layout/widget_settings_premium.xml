@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.discord.app.AppViewFlipper android:id="@id/premium_settings_view_flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/action_bar_scrolling_view_behavior">
+        <ScrollView android:id="@id/premium_settings_scrollview" style="@style/UiKit.ViewGroup.NestedScrollView.AppBarScrollingViewBehavior">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:background="@drawable/img_nitro_pattern" android:layout_width="fill_parent" android:layout_height="270.0sp" android:importantForAccessibility="no" app:layout_constraintTop_toTopOf="parent" />
+                <ImageView android:layout_gravity="top" android:background="@drawable/img_nitro_classic_pattern" android:layout_width="fill_parent" android:layout_height="270.0sp" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" />
+                <LinearLayout android:layout_width="0.0dip" android:layout_marginTop="@dimen/uikit_spacing_xlarge" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="500.0dip" style="@style/UiKit.ViewGroup.LinearLayout">
+                    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="@color/white" android:id="@id/premium_settings_grandfathered" android:background="@drawable/bg_nitro_grandfathered" android:padding="@dimen/uikit_spacing_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_large" android:drawablePadding="@dimen/uikit_spacing_medium" android:drawableStart="@drawable/ic_nitro_badge_white" style="@style/UiKit.TextView" />
+                    <TextView android:textSize="@dimen/uikit_textsize_small" android:textColor="?primary_400" android:id="@id/premium_settings_legalese" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginTop="@dimen/uikit_spacing_medium" android:layout_marginRight="@dimen/uikit_spacing_large" style="@style/UiKit.TextView" />
+                    <com.discord.views.ActiveSubscriptionView android:id="@id/premium_settings_active_subscription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginTop="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" app:cardBackgroundColor="?primary_630" app:cardElevation="0.0dip" />
+                    <LinearLayout android:id="@id/premium_settings_credit_container" style="@style/UiKit.ViewGroup.LinearLayout">
+                        <TextView android:text="@string/billing_account_credit" style="@style/UiKit.Settings.Item.Header" />
+                        <include layout="@layout/layout_account_credits_list" />
+                    </LinearLayout>
+                    <include android:id="@id/premium_settings_tier_2_container" layout="@layout/view_premium_settings_tier_2" />
+                    <include layout="@layout/view_premium_settings_perks" />
+                    <include android:id="@id/premium_settings_tier_1_container" layout="@layout/view_premium_settings_tier_1" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/UiKit.ViewGroup.LinearLayout">
+            <ImageView android:layout_marginBottom="@dimen/uikit_spacing_medium" android:src="@drawable/img_poop_dark" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+            <Button android:id="@id/premium_settings_retry" android:layout_width="wrap_content" android:text="@string/retry" style="@style/UiKit.Button.Grey" />
+        </LinearLayout>
+    </com.discord.app.AppViewFlipper>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

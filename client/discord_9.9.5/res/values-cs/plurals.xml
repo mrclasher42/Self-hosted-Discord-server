@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_feed_now_playing_header_two_known_extras">
+        <item quantity="other">%s dalších</item>
+        <item quantity="one">%s další</item>
+    </plurals>
+    <plurals name="activity_feed_recently_played_header_multiple_extra">
+        <item quantity="other">%s dalších</item>
+        <item quantity="one">%s další</item>
+    </plurals>
+    <plurals name="activity_feed_single_member_list_header_memberCount">
+        <item quantity="other">%s osoby</item>
+        <item quantity="one">%s osoba</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_days_ago_time">
+        <item quantity="other">dnů</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_hours_ago_time">
+        <item quantity="other">hodinami</item>
+        <item quantity="one">hodinou</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_minutes_ago_time">
+        <item quantity="other">minutami</item>
+        <item quantity="one">minutou</item>
+    </plurals>
+    <plurals name="activity_feed_user_played_seconds_ago_time">
+        <item quantity="other">sekundami</item>
+        <item quantity="one">sekundou</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_hours_timeRemaining">
+        <item quantity="other">zbývá %s hodin</item>
+        <item quantity="one">zbývá 1 hodina</item>
+        <item quantity="few">zbývají %s hodiny</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_minutes_timeRemaining">
+        <item quantity="other">zbývá %s minut</item>
+        <item quantity="one">zbývá 1 minuta</item>
+        <item quantity="few">zbývají %s minuty</item>
+    </plurals>
+    <plurals name="application_progress_indicator_installing_seconds_timeRemaining">
+        <item quantity="other">zbývá %s vteřin</item>
+        <item quantity="one">končí</item>
+        <item quantity="few">zbývají %s vteřiny</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_hours_timeRemaining">
+        <item quantity="other">zbývá %s hodin</item>
+        <item quantity="one">zbývá 1 hodina</item>
+        <item quantity="few">zbývají %s hodiny</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_minutes_timeRemaining">
+        <item quantity="other">zbývá %s minut</item>
+        <item quantity="one">zbývá 1 minuta</item>
+        <item quantity="few">zbývají %s minuty</item>
+    </plurals>
+    <plurals name="application_progress_indicator_updating_seconds_timeRemaining">
+        <item quantity="other">zbývá %s vteřin</item>
+        <item quantity="one">končí</item>
+        <item quantity="few">zbývají %s vteřiny</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_monthly_mobile_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%směsíce</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_monthly_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_subscription_yearly_intervalCount">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="application_store_gift_purchase_confirm_yearly_mobile_intervalCount">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="application_store_hide_games_in_library_hidden_gamesHidden">
+        <item quantity="other">%s her v knihovně</item>
+        <item quantity="one">%s hra v knihovně</item>
+    </plurals>
+    <plurals name="application_store_recommendation_ever_played_other_count">
+        <item quantity="other">%s lidí</item>
+        <item quantity="one">1 člověk</item>
+        <item quantity="few">%s lidé</item>
+    </plurals>
+    <plurals name="application_store_recommendation_now_playing_other_count">
+        <item quantity="other">%s lidí</item>
+        <item quantity="one">1 člověk</item>
+        <item quantity="few">%s lidé</item>
+    </plurals>
+    <plurals name="application_store_recommendation_recently_played_other_count">
+        <item quantity="other">%s lidí</item>
+        <item quantity="one">1 člověk</item>
+        <item quantity="few">%s lidé</item>
+    </plurals>
+    <plurals name="bans_header_bans">
+        <item quantity="other">%s zákazů</item>
+        <item quantity="zero">Žádné zákazy</item>
+        <item quantity="one">1 zákaz</item>
+    </plurals>
+    <plurals name="billing_refund_purchase_date_daysSincePurchase">
+        <item quantity="other">Před%s dny</item>
+        <item quantity="zero">Dnes</item>
+        <item quantity="one">Před %s dnem</item>
+    </plurals>
+    <plurals name="blocked_messages_count">
+        <item quantity="other">%s Blokovaných zpráv</item>
+        <item quantity="one">1 Blokovaná zpráva</item>
+        <item quantity="few">%s Blokované zprávy</item>
+    </plurals>
+    <plurals name="channel_slowmode_cooldown_seconds">
+        <item quantity="other">%s vteřin</item>
+        <item quantity="one">1 vteřinu</item>
+        <item quantity="few">%s vteřiny</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_hours">
+        <item quantity="other">%s hod.</item>
+        <item quantity="one">1 hod.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_hours_seconds">
+        <item quantity="other">%s sek.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_minutes">
+        <item quantity="other">%s min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_minutes_seconds">
+        <item quantity="other">%s sek.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="channel_slowmode_desc_seconds">
+        <item quantity="other">%s vteřin</item>
+        <item quantity="one">1 vteřinu</item>
+        <item quantity="few">%s vteřiny</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_hours_hours">
+        <item quantity="other">%s hodin</item>
+        <item quantity="one">%s hodinu</item>
+        <item quantity="few">%s hodiny</item>
+    </plurals>
+    <plurals name="custom_status_clear_in_minutes_minutes">
+        <item quantity="other">%s minut</item>
+        <item quantity="one">%s minutu</item>
+        <item quantity="few">%s minuty</item>
+    </plurals>
+    <plurals name="custom_status_hours_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+    </plurals>
+    <plurals name="custom_status_minutes_minutes">
+        <item quantity="other">%s m</item>
+        <item quantity="one">%s m</item>
+    </plurals>
+    <plurals name="duration_days_days">
+        <item quantity="other">%s dní</item>
+        <item quantity="one">1 den</item>
+        <item quantity="few">%s dny</item>
+    </plurals>
+    <plurals name="duration_hours_hours">
+        <item quantity="other">%s hodin</item>
+        <item quantity="one">1 hodina</item>
+        <item quantity="few">%s hodiny</item>
+    </plurals>
+    <plurals name="duration_hours_short_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">1 h</item>
+    </plurals>
+    <plurals name="duration_mins_mins">
+        <item quantity="other">%s min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="duration_minutes_minutes">
+        <item quantity="other">%s minut</item>
+        <item quantity="one">1 minuta</item>
+        <item quantity="few">%s minuty</item>
+    </plurals>
+    <plurals name="duration_minutes_short_minutes">
+        <item quantity="other">%s m</item>
+        <item quantity="one">1 m</item>
+    </plurals>
+    <plurals name="duration_seconds_seconds">
+        <item quantity="other">%s vteřin</item>
+        <item quantity="one">1 vteřina</item>
+        <item quantity="few">%s vteřiny</item>
+    </plurals>
+    <plurals name="duration_seconds_short_seconds">
+        <item quantity="other">%s s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="emoji_slots_available_count">
+        <item quantity="other">%s pozic</item>
+        <item quantity="zero">žádné pozice</item>
+        <item quantity="one">%s pozice</item>
+    </plurals>
+    <plurals name="form_help_last_seen_days">
+        <item quantity="other">%s dní</item>
+        <item quantity="one">1 den</item>
+        <item quantity="few">%s dny</item>
+    </plurals>
+    <plurals name="form_help_last_seen_members">
+        <item quantity="zero">0 členů</item>
+        <item quantity="one">1 člena</item>
+        <item quantity="few">%s členy</item>
+    </plurals>
+    <plurals name="game_feed_user_played_days_ago_time">
+        <item quantity="other">dny</item>
+        <item quantity="one">dnem</item>
+    </plurals>
+    <plurals name="game_feed_user_played_hours_ago_time">
+        <item quantity="other">hodinami</item>
+        <item quantity="one">hodinou</item>
+    </plurals>
+    <plurals name="game_feed_user_played_minutes_ago_time">
+        <item quantity="other">minutami</item>
+        <item quantity="one">minutou</item>
+    </plurals>
+    <plurals name="game_feed_user_played_months_ago_time">
+        <item quantity="other">měsíci</item>
+        <item quantity="one">měsícem</item>
+    </plurals>
+    <plurals name="game_feed_user_played_weeks_ago_time">
+        <item quantity="other">týdny</item>
+        <item quantity="one">týdnem</item>
+    </plurals>
+    <plurals name="game_feed_user_played_years_ago_time">
+        <item quantity="other">lety</item>
+        <item quantity="one">rokem</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_days_time">
+        <item quantity="other">dní</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_hours_time">
+        <item quantity="other">hodin</item>
+        <item quantity="one">hodinu</item>
+        <item quantity="few">hodiny</item>
+    </plurals>
+    <plurals name="game_feed_user_playing_for_minutes_time">
+        <item quantity="other">minut</item>
+        <item quantity="one">minutu</item>
+        <item quantity="few">minuty</item>
+    </plurals>
+    <plurals name="game_library_last_played_days_time">
+        <item quantity="other">před %s dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="game_library_last_played_hours_time">
+        <item quantity="other">%s hodinami</item>
+        <item quantity="one">%s hodinou</item>
+    </plurals>
+    <plurals name="game_library_last_played_minutes_time">
+        <item quantity="other">%s minutami</item>
+        <item quantity="one">%s minutou</item>
+    </plurals>
+    <plurals name="game_library_last_played_months_time">
+        <item quantity="other">před %s měsíci</item>
+        <item quantity="one">minulý měsíc</item>
+    </plurals>
+    <plurals name="game_library_last_played_weeks_time">
+        <item quantity="other">před %s týdny</item>
+        <item quantity="one">minulý týden</item>
+    </plurals>
+    <plurals name="game_library_last_played_years_time">
+        <item quantity="other">před %s lety</item>
+        <item quantity="one">minulý rok</item>
+    </plurals>
+    <plurals name="game_library_time_played_hours_time">
+        <item quantity="other">hodin</item>
+        <item quantity="one">hodina</item>
+    </plurals>
+    <plurals name="game_library_time_played_minutes_time">
+        <item quantity="other">minut</item>
+        <item quantity="one">minuta</item>
+    </plurals>
+    <plurals name="game_library_time_played_seconds_time">
+        <item quantity="other">sekund</item>
+        <item quantity="one">sekunda</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_hours_timeRemaining">
+        <item quantity="other">zbývá %s hodin</item>
+        <item quantity="one">zbývá 1 hodina</item>
+        <item quantity="few">zbývají %s hodiny</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_minutes_timeRemaining">
+        <item quantity="other">zbývá %s minut</item>
+        <item quantity="one">zbývá 1 minuta</item>
+        <item quantity="few">zbývají %s minuty</item>
+    </plurals>
+    <plurals name="game_library_updates_installing_seconds_timeRemaining">
+        <item quantity="other">zbývá %s vteřin</item>
+        <item quantity="one">končí</item>
+        <item quantity="few">zbývají %s vteřiny</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_hours_timeRemaining">
+        <item quantity="other">zbývá %s hodin</item>
+        <item quantity="one">zbývá 1 hodina</item>
+        <item quantity="few">zbývají %s hodiny</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_minutes_timeRemaining">
+        <item quantity="other">zbývá %s minut</item>
+        <item quantity="one">zbývá 1 minuta</item>
+        <item quantity="few">zbývají %s minuty</item>
+    </plurals>
+    <plurals name="game_library_updates_updating_updating_seconds_timeRemaining">
+        <item quantity="other">zbývá %s vteřin</item>
+        <item quantity="one">končí</item>
+        <item quantity="few">zbývají %s vteřiny</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_monthly_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="gift_code_auth_gifted_subscription_yearly_intervalCount">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_monthly_confirm_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_subscription_yearly_confirm_intervalCount">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_monthly_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_generic_subscription_yearly_intervalCount">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_monthly_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="gift_confirmation_body_success_premium_tier_1_yearly_intervalCount">
+        <item quantity="other">%s roků</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_months_time">
+        <item quantity="other">měsíců</item>
+        <item quantity="one">měsíc</item>
+        <item quantity="few">měsíce</item>
+    </plurals>
+    <plurals name="gift_confirmation_nitro_time_frame_years_time">
+        <item quantity="other">let</item>
+        <item quantity="one">rok</item>
+        <item quantity="few">roky</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_months_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_default_years_intervalCount">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_months_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="gift_embed_body_subscription_no_user_default_years_intervalCount">
+        <item quantity="other">%s let</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="gift_embed_expiration_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+    </plurals>
+    <plurals name="gift_inventory_copies_copies">
+        <item quantity="other">%s kopií</item>
+        <item quantity="one">%s kopie</item>
+        <item quantity="few">%s kopie</item>
+    </plurals>
+    <plurals name="gift_inventory_expires_in_mobile_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_months_intervalCount">
+        <item quantity="other">%s měsíců</item>
+        <item quantity="one">%s měsíc</item>
+        <item quantity="few">%s měsíce</item>
+    </plurals>
+    <plurals name="gift_inventory_subscription_years_intervalCount">
+        <item quantity="other">%s roků</item>
+        <item quantity="one">%s rok</item>
+        <item quantity="few">%s roky</item>
+    </plurals>
+    <plurals name="guild_discovery_header_search_results_count">
+        <item quantity="other">%s výsledků</item>
+        <item quantity="one">1 výsledek</item>
+        <item quantity="few">%s výsledky</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_denied_count">
+        <item quantity="other">oprávnění</item>
+        <item quantity="one">oprávnění</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_permission_overrides_granted_count">
+        <item quantity="other">oprávnění</item>
+        <item quantity="one">oprávnění</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_change_newValue">
+        <item quantity="other">Pomalý režim nastaven na **!!%s!! vteřin**</item>
+        <item quantity="zero">Pomalý režim vypnut</item>
+        <item quantity="few">Pomalý režim nastaven na **!!%s!! vteřiny**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_channel_rate_limit_per_user_create_newValue">
+        <item quantity="other">Pomalý režim nastaven na **!!%s!! vteřin**</item>
+        <item quantity="zero">Pomalý režim vypnut</item>
+        <item quantity="few">Pomalý režim nastaven na **!!%s!! vteřiny**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_count">
+        <item quantity="other">**!!%s!! neaktivních členů**</item>
+        <item quantity="one">**neaktivního člena**</item>
+        <item quantity="few">**!!%s!! neaktivní členy**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_prune_delete_days_newValue">
+        <item quantity="other">%s dnech</item>
+        <item quantity="one">dni</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_add_count">
+        <item quantity="other">Nějaké role</item>
+        <item quantity="one">role</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_member_roles_remove_count">
+        <item quantity="other">Nějaké role</item>
+        <item quantity="one">role</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_message_delete_count">
+        <item quantity="other">**!!%s!! zpráv**</item>
+        <item quantity="one">**zprávu**</item>
+        <item quantity="few">**!!%s!! zprávy**</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_denied_count">
+        <item quantity="other">oprávnění</item>
+        <item quantity="one">oprávnění</item>
+    </plurals>
+    <plurals name="guild_settings_audit_log_role_permissions_granted_count">
+        <item quantity="other">oprávnění</item>
+        <item quantity="one">oprávnění</item>
+    </plurals>
+    <plurals name="guild_settings_overview_boost_unlock_boosts">
+        <item quantity="other">%s vylepšení</item>
+        <item quantity="one">%s vylepšení</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_close_hint_numLeft">
+        <item quantity="other">%s dalších vylepšení ti zbývá</item>
+        <item quantity="one">%s další vylepšení ti zbývá</item>
+        <item quantity="few">%s další vylepšení ti zbývají</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_count_subscribers_count">
+        <item quantity="other">%s extrémně cool lidí vylepšilo</item>
+        <item quantity="one">%s extrémně cool člověk vylepšil</item>
+        <item quantity="few">%s extrémně cool lidé vylepšili</item>
+    </plurals>
+    <plurals name="guild_settings_premium_guild_tier_requirement_required">
+        <item quantity="other">%s vylepšení</item>
+        <item quantity="one">%s vylepšení</item>
+    </plurals>
+    <plurals name="guild_subscription_purchase_modal_activated_description_guildSubscriptionQuantity">
+        <item quantity="other">%skrát</item>
+        <item quantity="one">%skrát</item>
+    </plurals>
+    <plurals name="instant_invite_guild_members_total_count">
+        <item quantity="other">%s členů</item>
+        <item quantity="one">1 člen</item>
+    </plurals>
+    <plurals name="invite_embed_num_open_slots_number">
+        <item quantity="other">otevřených pozic</item>
+        <item quantity="one">otevřená pozice</item>
+        <item quantity="few">otevřené pozice</item>
+    </plurals>
+    <plurals name="invite_expires_days_or_uses_numUses">
+        <item quantity="other">%s použitích</item>
+        <item quantity="one">%s použití</item>
+    </plurals>
+    <plurals name="invite_expires_hours_numHours">
+        <item quantity="other">%s hodin</item>
+        <item quantity="one">%s hodinu</item>
+        <item quantity="few">%s hodiny</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numHours">
+        <item quantity="other">%s hodin</item>
+        <item quantity="one">%s hodinu</item>
+        <item quantity="few">%s hodiny</item>
+    </plurals>
+    <plurals name="invite_expires_hours_or_uses_numUses">
+        <item quantity="other">%s použitích</item>
+        <item quantity="one">%s použití</item>
+    </plurals>
+    <plurals name="invite_expires_minutes_or_uses_numUses">
+        <item quantity="other">%s použitích</item>
+        <item quantity="one">%s použití</item>
+    </plurals>
+    <plurals name="invite_expires_uses_numUses">
+        <item quantity="other">%s použitích</item>
+        <item quantity="one">%s použití</item>
+    </plurals>
+    <plurals name="last_seen_days">
+        <item quantity="other">%s dny</item>
+        <item quantity="one">1 dnem</item>
+    </plurals>
+    <plurals name="live_viewers_viewers">
+        <item quantity="other">diváků</item>
+        <item quantity="one">divák</item>
+        <item quantity="few">diváci</item>
+    </plurals>
+    <plurals name="max_uses_description_mobile_maxUses">
+        <item quantity="other">%s použití</item>
+        <item quantity="zero">neomezené použití</item>
+        <item quantity="one">1 použití</item>
+    </plurals>
+    <plurals name="max_uses_maxUses">
+        <item quantity="other">%s použití</item>
+        <item quantity="zero">Neomezený</item>
+        <item quantity="one">1 použití</item>
+    </plurals>
+    <plurals name="members_header_members">
+        <item quantity="other">%s uživatelů</item>
+        <item quantity="zero">Žádní uživatelé</item>
+        <item quantity="one">1 uživatel</item>
+    </plurals>
+    <plurals name="n_days_days">
+        <item quantity="other">%s dny</item>
+        <item quantity="one">1 den</item>
+    </plurals>
+    <plurals name="new_messages_count">
+        <item quantity="other">%s nové zprávy</item>
+        <item quantity="one">1 nová zpráva</item>
+    </plurals>
+    <plurals name="new_messages_with_date_count">
+        <item quantity="other">%s nových zpráv</item>
+        <item quantity="one">1 nová zpráva</item>
+    </plurals>
+    <plurals name="notice_premium_grandfathered_ending_numDays">
+        <item quantity="other">%s dní</item>
+        <item quantity="one">jeden den</item>
+        <item quantity="few">%s dny</item>
+    </plurals>
+    <plurals name="num_channels_num">
+        <item quantity="other">%s kanálů</item>
+        <item quantity="one">%s kanál</item>
+        <item quantity="few">%s kanály</item>
+    </plurals>
+    <plurals name="num_members_subscribers">
+        <item quantity="other">**%s** členů</item>
+        <item quantity="zero">**0** členů</item>
+        <item quantity="one">**1** člen</item>
+        <item quantity="few">%s členové</item>
+    </plurals>
+    <plurals name="num_subscribers_subscribers">
+        <item quantity="other">**%s** odběratelů</item>
+        <item quantity="zero">**0** odběratelů</item>
+        <item quantity="one">**1** odběratel</item>
+        <item quantity="few">**%s**odběratelé</item>
+    </plurals>
+    <plurals name="num_users_num">
+        <item quantity="other">%s uživatelů</item>
+        <item quantity="one">1 uživatel</item>
+    </plurals>
+    <plurals name="only_you_can_see_and_delete_these_count">
+        <item quantity="other">zprávy</item>
+        <item quantity="one">zprávu</item>
+        <item quantity="few">zprávy</item>
+    </plurals>
+    <plurals name="partial_outage_a11y_count">
+        <item quantity="other">%s serverů je nedostupných z důvodu dočasného výpadku.</item>
+        <item quantity="one">1 server je nedostupný z důvodu dočasného výpadku.</item>
+        <item quantity="few">%s servery jsou nedostupné z důvodu dočasného výpadku.</item>
+    </plurals>
+    <plurals name="partial_outage_count">
+        <item quantity="other">**%s** dalších serverů je nedostupných z důvodu dočasného výpadku.</item>
+        <item quantity="one">**1** další server je nedostupný z důvodu dočasného výpadku.</item>
+        <item quantity="few">**%s** další servery jsou nedostupné z důvodu dočasného výpadku.</item>
+    </plurals>
+    <plurals name="premium_chat_perks_description_premium_guild_included_numFreeGuildSubscriptions">
+        <item quantity="other">%s vylepšení</item>
+        <item quantity="one">%s vylepšení</item>
+    </plurals>
+    <plurals name="premium_guild_num_month_guild_subscriptions_num">
+        <item quantity="other">vylepšení serveru</item>
+        <item quantity="one">vylepšení serveru</item>
+    </plurals>
+    <plurals name="premium_guild_num_year_guild_subscriptions_num">
+        <item quantity="other">vylepšení serveru</item>
+        <item quantity="one">vylepšení serveru</item>
+    </plurals>
+    <plurals name="premium_guild_perks_modal_header_user_subscription_count_numSubscriptions">
+        <item quantity="other">%skrát!</item>
+        <item quantity="one">%skrát</item>
+    </plurals>
+    <plurals name="premium_guild_settings_members_subscribed_needed_number">
+        <item quantity="other">%s dalších vylepšení</item>
+        <item quantity="one">%s další vylepšení</item>
+        <item quantity="few">%s další vylepšení</item>
+    </plurals>
+    <plurals name="premium_guild_settings_x_of_y_subscriptions_numRequired">
+        <item quantity="other">%s vylepšení</item>
+        <item quantity="one">%s vylepšení</item>
+    </plurals>
+    <plurals name="premium_guild_subscribe_confirm_cooldown_warning_days">
+        <item quantity="other">%s dní</item>
+        <item quantity="one">%s den</item>
+        <item quantity="few">%s dny</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_available_count_num">
+        <item quantity="other">%s vylepšení serveru</item>
+        <item quantity="one">%s vylepšení serveru</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_days">
+        <item quantity="other">%s d</item>
+        <item quantity="one">%s d</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_days_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_hours_minutes">
+        <item quantity="other">%s m</item>
+        <item quantity="one">%s m</item>
+    </plurals>
+    <plurals name="premium_guild_subscription_error_rate_limit_minutes_minutes">
+        <item quantity="other">%s m</item>
+        <item quantity="one">%s m</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_days">
+        <item quantity="other">%s d</item>
+        <item quantity="one">%s d</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_days_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_hours">
+        <item quantity="other">%s h</item>
+        <item quantity="one">%s h</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_hours_minutes">
+        <item quantity="other">%s m</item>
+        <item quantity="one">%s m</item>
+    </plurals>
+    <plurals name="premium_guild_unsubscribe_confirm_cooldown_warning_minutes_minutes">
+        <item quantity="other">%s m</item>
+        <item quantity="one">%s m</item>
+    </plurals>
+    <plurals name="publish_followed_news_fail_body_retryAfter">
+        <item quantity="other">%s minut</item>
+        <item quantity="one">1 minutu</item>
+    </plurals>
+    <plurals name="reaction_tooltip_1_n_n">
+        <item quantity="other">%s další</item>
+        <item quantity="one">1 další</item>
+        <item quantity="few">%s další</item>
+    </plurals>
+    <plurals name="reaction_tooltip_2_n_n">
+        <item quantity="other">%s další</item>
+        <item quantity="one">1 další</item>
+        <item quantity="few">%s další</item>
+    </plurals>
+    <plurals name="reaction_tooltip_3_n_n">
+        <item quantity="other">%s další</item>
+        <item quantity="one">1 další</item>
+        <item quantity="few">%s další</item>
+    </plurals>
+    <plurals name="reaction_tooltip_n_n">
+        <item quantity="other">%s lidí reaguje</item>
+        <item quantity="one">1 člověk reaguje</item>
+        <item quantity="few">%s lidé reagují</item>
+    </plurals>
+    <plurals name="roles_list_numRoles">
+        <item quantity="other">Role</item>
+        <item quantity="zero">Žádné Role</item>
+        <item quantity="one">Role</item>
+    </plurals>
+    <plurals name="search_num_results_blocked_not_shown_count">
+        <item quantity="other">%s výsledků</item>
+        <item quantity="one">%s výsledek</item>
+        <item quantity="few">%s výsledky</item>
+    </plurals>
+    <plurals name="search_still_indexing_hint_count">
+        <item quantity="other">%s výsledků</item>
+        <item quantity="zero">žádné výsledky</item>
+        <item quantity="one">%s výsledek</item>
+        <item quantity="few">%s výsledky</item>
+    </plurals>
+    <plurals name="spotify_listen_along_title_host_count">
+        <item quantity="other">posluchačů</item>
+        <item quantity="one">posluchač</item>
+        <item quantity="few">posluchači</item>
+    </plurals>
+    <plurals name="total_results_count">
+        <item quantity="other">%s výsledků</item>
+        <item quantity="zero">Žádné výsledky</item>
+        <item quantity="one">%s výsledek</item>
+        <item quantity="few">%s výsledky</item>
+    </plurals>
+    <plurals name="uploading_files_count">
+        <item quantity="other">Nahrávání %s souborů</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_hours">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_minutes">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_end_seconds">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_hours">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_minutes">
+        <item quantity="other">%s:</item>
+    </plurals>
+    <plurals name="user_activity_timestamp_start_seconds">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_days_time">
+        <item quantity="other">dní</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_hours_time">
+        <item quantity="other">hodin</item>
+        <item quantity="one">hodinu</item>
+        <item quantity="few">hodiny</item>
+    </plurals>
+    <plurals name="user_activity_user_playing_for_minutes_time">
+        <item quantity="other">minut</item>
+        <item quantity="one">minutu</item>
+        <item quantity="few">minuty</item>
+    </plurals>
+    <plurals name="user_profile_mutual_friends_count">
+        <item quantity="other">%s společných přátel</item>
+        <item quantity="zero">0 společných přátel</item>
+        <item quantity="one">1 společný přítel</item>
+        <item quantity="few">%s společní přátelé</item>
+    </plurals>
+    <plurals name="user_profile_mutual_guilds_count">
+        <item quantity="other">%s společných serverů</item>
+        <item quantity="zero">0 společných serverů</item>
+        <item quantity="one">1 společný server</item>
+        <item quantity="few">%s společné servery</item>
+    </plurals>
+    <plurals name="voice_call_member_list_title_count">
+        <item quantity="other">%s lidé</item>
+        <item quantity="one">%s člověk</item>
+    </plurals>
+</resources>

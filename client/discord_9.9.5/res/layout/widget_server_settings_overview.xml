@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat">
+        <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView android:id="@id/server_settings_overview_scroll" style="@style/UiKit.ViewGroup.NestedScrollView.AppBarScrollingViewBehavior">
+        <LinearLayout android:focusableInTouchMode="true" style="@style/UiKit.ViewGroup.LinearLayout">
+            <include layout="@layout/view_server_settings_icon_name" />
+            <View style="@style/UiKit.Settings.Divider" />
+            <include layout="@layout/view_server_settings_region" />
+            <View style="@style/UiKit.Settings.Divider" />
+            <include layout="@layout/widget_server_settings_overview_section_afk_channel" />
+            <View style="@style/UiKit.Settings.Divider" />
+            <include layout="@layout/view_server_settings_system_channel_wrap" />
+            <View style="@style/UiKit.Settings.Divider" />
+            <include layout="@layout/view_server_settings_notifications" />
+            <include layout="@layout/view_server_settings_upload_splash" />
+            <include layout="@layout/view_server_settings_upload_banner" />
+            <View android:layout_width="fill_parent" android:layout_height="64.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/server_settings_overview_save" style="@style/Settings.FloatingActionButton.Save" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

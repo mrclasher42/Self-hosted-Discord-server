@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout style="@style/UiKit.ViewGroup.Page"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout style="@style/AppTheme.AppBarLayout.Flat">
+        <androidx.appcompat.widget.Toolbar app:navigationIcon="?ic_action_bar_back" app:subtitle="@string/user_settings" app:title="@string/premium_gifting_title" style="@style/AppTheme.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.discord.app.AppViewFlipper android:id="@id/settings_gifting_flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:layout_height="fill_parent" style="@style/UiKit.ViewGroup.LinearLayout">
+            <ImageView android:layout_marginBottom="@dimen/uikit_spacing_medium" android:src="@drawable/img_poop_dark" android:importantForAccessibility="no" style="@style/UiKit.ImageView" />
+            <Button android:id="@id/settings_gifting_retry" android:layout_width="wrap_content" android:text="@string/retry" style="@style/UiKit.Button.Grey" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView style="@style/UiKit.ViewGroup.ScrollView">
+            <LinearLayout style="@style/UiKit.ViewGroup.LinearLayout">
+                <TextView android:paddingBottom="@dimen/uikit_spacing_medium" android:text="@string/gift_inventory_redeem_codes" style="@style/UiKit.Settings.Item.Header" />
+                <TextView android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:text="@string/application_entitlement_code_redemption_prompt" style="@style/UiKit.Settings.Item.SubText" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large">
+                    <ProgressBar android:layout_gravity="end|center" android:id="@id/settings_gifting_gift_code_input_progress" android:visibility="gone" android:layout_width="20.0sp" android:layout_height="20.0sp" android:layout_marginEnd="@dimen/uikit_spacing_large" />
+                    <com.google.android.material.textfield.TextInputLayout android:id="@id/settings_gifting_gift_code_input_wrap" android:layout_marginTop="0.0dip" app:hintEnabled="false" style="@style/UiKit.Form.Field.EditText.Wrap">
+                        <androidx.appcompat.widget.AppCompatEditText android:id="@id/settings_gifting_gift_code_input" android:hint="@string/gift_code_hint" android:imeOptions="actionDone" style="@style/UiKit.Form.Field.EditText" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+                <TextView android:paddingBottom="0.0dip" android:layout_marginTop="@dimen/uikit_spacing_medium" android:text="@string/application_library_inventory" style="@style/UiKit.Settings.Item.Header" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/settings_giftting_inventory_recycler" android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:animateLayoutChanges="false" style="@style/UiKit.ViewGroup.RecyclerView" />
+                <TextView android:paddingBottom="@dimen/uikit_spacing_medium" android:layout_marginTop="@dimen/uikit_spacing_medium" android:text="@string/gift_inventory_select_nitro_gift" style="@style/UiKit.Settings.Item.Header" />
+                <LinearLayout android:layout_marginLeft="@dimen/uikit_spacing_large" android:layout_marginRight="@dimen/uikit_spacing_large" android:layout_marginBottom="@dimen/uikit_spacing_xlarge" style="@style/UiKit.ViewGroup.LinearLayout">
+                    <include layout="@layout/view_settings_gifting_nitro" />
+                    <include layout="@layout/view_settings_gifting_nitro_classic" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </com.discord.app.AppViewFlipper>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

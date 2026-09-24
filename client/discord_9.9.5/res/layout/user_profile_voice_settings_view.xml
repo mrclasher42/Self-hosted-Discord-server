@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/UiKit.ViewGroup.LinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/user_profile_volume" style="@style/UiKit.ListItem" />
+    <LinearLayout android:paddingLeft="@dimen/uikit_spacing_large" android:paddingRight="@dimen/uikit_spacing_large" style="@style/UiKit.ViewGroup.LinearLayout.Horizontal">
+        <ImageView android:src="?ic_volume_mute" android:contentDescription="@string/sample_empty_string" style="@style/UiKit.ImageView" />
+        <SeekBar android:id="@id/user_sheet_volume" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="8.0dip" android:max="100" android:progressDrawable="@drawable/drawable_settings_progress" android:thumb="@drawable/drawable_thumb_white" android:layout_weight="1.0" android:splitTrack="false" />
+        <ImageView android:src="?ic_volume_up" android:contentDescription="@string/sample_empty_string" style="@style/UiKit.ImageView" />
+    </LinearLayout>
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/user_sheet_muted" android:text="@string/mute" style="@style/UiKit.ListItem" />
+</LinearLayout>

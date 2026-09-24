@@ -16,8 +16,6 @@ data/blobs/
 
 # Client APK (large file)
 client/*.apk
-client/discord_9.9.5/
-client/work/
 client/*.idsig
 
 # Keystore (sensitive)
