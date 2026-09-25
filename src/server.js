@@ -3273,7 +3273,7 @@ app.get('/status', (req, res) => {
   });
 
 app.get('/', (req, res) => {
-    const dbRef = require('../db').db;
+    const dbRef = require('./db').db;
     const guildsCount = Object.keys(dbRef.guilds || {}).length;
     const usersCount = Object.keys(dbRef.users || {}).length;
     const channelsCount = Object.keys(dbRef.channels || {}).length;
